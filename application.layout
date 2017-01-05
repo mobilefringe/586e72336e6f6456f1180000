@@ -106,7 +106,7 @@
                     <ul class="sub_menu hidden_now">
 						<li><a href="/posts">Londonderry Style</a></li>
 						<li><a href="/blog">Get the Look</a></li>
-						<li><a href="/pages/londonderry-development-announcement">News/Development</a></li>
+						<li><a href="/news">News/Development</a></li>
 					</ul>
                 </li>
                 <li>
@@ -116,11 +116,11 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/pages/londonderry-guest-services">Guest Services</a></li>
-                        <li><a href="/pages/londonderry-gift-card">Gift Cards</a></li>
-						<li><a href="/">Amenities / WIFI</a></li>
-						<li><a href="/pages/londonderry-security">Security</a></li>
-						<li><a href="/pages/londonderry-accessibility">Accessibility</a></li>
+                        <li><a href="/guest_services">Guest Services</a></li>
+                        <li><a href="/gift_cards">Gift Cards</a></li>
+						<li><a href="/amenities">Amenities / WIFI</a></li>
+						<!--<li><a href="/pages/londonderry-security">Security</a></li>-->
+						<li><a href="/accessibility">Accessibility</a></li>
 					</ul>
                 </li>
                 <li>
