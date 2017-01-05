@@ -40,6 +40,7 @@
             console.log(pathArray);
             var slug = pathArray[pathArray.length-1];
             var prefix = get_prefix();
+            console.log(prefix);
             var pages_json = prefix + "/pages/" + slug + ".json"
             console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
