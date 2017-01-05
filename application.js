@@ -693,30 +693,34 @@ function renderHomeHours(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPosts(blog_template, blog_block, post){
+function renderPosts(container, template, collection){
     var item_list = [];
     var item_rendered = [];
-    var blog_template_html = $(blog_template).html();
-    Mustache.parse(blog_template_html);   // optional, speeds up future uses
-    $.each( post , function( key, val ) {
-        var publish_date = moment(val.publish_date).tz(getPropertyTimeZone());
-        var today = moment().tz(getPropertyTimeZone());
-        if (publish_date <= today){
-            item_list.push(val);
+    var template_html = $(template).html();
+    var counter = 1;
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( collection , function( key, val ) {
+        if (val.image_url.indexOf('missing.png') > -1) {
+            val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        } else {
+            val.post_image = val.image_url;
         }
+        if(val.body.length > 100){
+            val.description_short = val.body.substring(0,100) + "...";
+        }
+        else{
+            val.description_short = val.body;
+        }
+        val.description_short = val.description_short.replace("&amp;", "&");
+        var date_blog = new Date(val.publish_date);
+        val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+        counter = counter+1;
     });
-    item_list.sort(function(a, b){
-        if(a.publish_date > b.publish_date) return -1;
-        if(a.publish_date < b.publish_date) return 1;
-        return 0;
-    });
-    $.each( item_list , function( key, val ) {
-        var date_blog = moment(val.publish_date).tz(getPropertyTimeZone());
-        val.published_on = date_blog.format("YYYY-MM-DD")
-        var blog_rendered = Mustache.render(blog_template_html,val);
-        item_rendered.push(blog_rendered);
-    });
-    $(blog_block).html(item_rendered.join(''));
+    $(container).show();
+    $(container).html(item_rendered.join(''));
 }
 
 
