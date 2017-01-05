@@ -50,7 +50,7 @@
     
     <script>
         setEndPoint('//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/all.json');
-        setSocialEndPoint('//halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/social.json')
+        setSocialEndPoint('//londonderry.mallmaverick.com/api/v2/londonderry/social.json')
     </script>
     
      <script>
