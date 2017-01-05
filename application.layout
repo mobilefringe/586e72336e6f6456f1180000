@@ -91,7 +91,7 @@
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
-                    <ul class="sub_menu">
+                    <ul class="sub_menu hidden_now">
 						<li><a href="/promotions">Promotions</a></li>
 						<li><a href="/events">Events</a></li>
 						<li><a href="/contests">Contests</a></li>
@@ -103,7 +103,7 @@
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
-                    <ul class="sub_menu">
+                    <ul class="sub_menu hidden_now">
 						<li><a href="/posts">Londonderry Style</a></li>
 						<li><a href="/blog">Get the Look</a></li>
 						<li><a href="/">News/Development</a></li>
@@ -116,11 +116,11 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/">Guest Services</a></li>
-                        <li><a href="/">Gift Cards</a></li>
+                        <li><a href="/pages/londonderry-guest-services">Guest Services</a></li>
+                        <li><a href="/pages/londonderry-gift-card">Gift Cards</a></li>
 						<li><a href="/">Amenities / WIFI</a></li>
-						<li><a href="/">Security</a></li>
-						<li><a href="/">Accessibility</a></li>
+						<li><a href="/pages/londonderry-security">Security</a></li>
+						<li><a href="/pages/londonderry-accessibility">Accessibility</a></li>
 					</ul>
                 </li>
                 <li>
@@ -130,7 +130,7 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/">Directions</a></li>
+                        <li><a href="/pages/londonderry-directions">Directions</a></li>
 						<li><a href="/hours">Shopping Hours</a></li>
 					</ul>
                 </li>
@@ -141,9 +141,9 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/">Contact Us</a></li>
-						<li><a href="/">Leasing</a></li>
-						<li><a href="/">Security</a></li>
+						<li><a href="/pages/londonderry-contact-us">Contact Us</a></li>
+						<li><a href="/pages/londonderry-leasing">Leasing</a></li>
+						<li><a href="/pages/londonderry-security">Security</a></li>
 					</ul>
                 </li>
             </ul>
