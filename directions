@@ -34,8 +34,8 @@
             var slug = pathArray[pathArray.length-1];
             var prefix = get_prefix();
             console.log(prefix);
-            var pages_json = prefix + "/pages/" + slug + ".json"
-            if(slug === "londonderry-directions") {
+            var pages_json = prefix + "/pages/londonderry-directions.json"
+            if(slug === "directions") {
                 $.getJSON(pages_json).done(function(data) {
                     $('#mm_page_title').html(data.title.toUpperCase());
                     $('#mm_page_content').html(data.body);    
