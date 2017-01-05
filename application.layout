@@ -130,7 +130,7 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/pages/londonderry-directions">Directions</a></li>
+                        <li><a href="/directions">Directions</a></li>
 						<li><a href="/hours">Shopping Hours</a></li>
 					</ul>
                 </li>
@@ -141,9 +141,9 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/pages/londonderry-contact-us">Contact Us</a></li>
-						<li><a href="/pages/londonderry-leasing">Leasing</a></li>
-						<li><a href="/pages/londonderry-security">Security</a></li>
+						<li><a href="/contact_us">Contact Us</a></li>
+						<li><a href="/leasing">Leasing</a></li>
+						<li><a href="/security">Security</a></li>
 					</ul>
                 </li>
             </ul>
