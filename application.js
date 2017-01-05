@@ -122,7 +122,6 @@ function renderPromotions(container, template, collection, centre){
             val.store_slug = "/stores/" + store_details.slug
         }
         else{
-            val.image_url = promo_image_url_abs;
             // val.image_url = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
             val.store_name = mall_name;
             val.store_slug = "/"
