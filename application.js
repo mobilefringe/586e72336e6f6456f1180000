@@ -723,7 +723,6 @@ function renderPosts(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-
 function renderFeatureItems(){
     var items = getFeatureList();
     $.each(items, function(i, val){
