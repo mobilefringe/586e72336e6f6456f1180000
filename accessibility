@@ -14,7 +14,7 @@
             <h5><a href="/amenities">AMENITIES</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/accessibility">ACCESSIBILITY</a></h5>
+            <h5 class="active_heading">ACCESSIBILITY</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -45,7 +45,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            var pages_json = prefix+ "/pages/halifaxcentre-accessibility.json"
+            var pages_json = prefix+ "/pages/londonderry-accessibility.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_title').html(data.title.toUpperCase());
                 $('#mm_page_content').html(data.body);
