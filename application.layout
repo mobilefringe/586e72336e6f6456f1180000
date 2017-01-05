@@ -87,7 +87,7 @@
                         
                 </li>
                 <li>
-                    <a href="#" class="submenu_expander open">
+                    <a href="#" class="submenu_expander">
                         WHAT'S HAPPENING
                         <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: none;">
 						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: inline;">
@@ -99,7 +99,7 @@
 					</ul>
                 </li>
                 <li>
-                    <a href="#" class="submenu_expander open">
+                    <a href="#" class="submenu_expander">
                         BLOG / NEWS
                         <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: none;">
 						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: inline;">
@@ -110,42 +110,20 @@
 						<li><a href="/">News/Development</a></li>
 					</ul>
                 </li>
+                
+                
                 <li>
                     <a href="#"  class="submenu_expander">
-                        SPECIAL OFFERS
+                        SERVICES
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/promotions">Promotions</a></li>
-						<li><a href="/events">Events</a></li>
-						<li class="contest_link"><a href="/contests">Contests</a></li>
-					</ul>
-                </li>
-                <li>
-                    <a href="#"  class="submenu_expander">
-                        OUR STYLE
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
-                    </a>
-                    <ul class="sub_menu hidden_now">
-						<li><a href="/style_file">Style File</a></li>
-						<li><a href="/shop_the_look">Shop the Look</a></li>
-						<li><a href="/attract">Opposites Attract</a></li>
-							<li><a href="/blog">Blog</a></li>
-					</ul>
-                </li>
-                <li>
-                    <a href="#"  class="submenu_expander">
-                        GUEST SERVICES
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
-                    </a>
-                    <ul class="sub_menu hidden_now">
-                        <li><a href="/gift_cards">Gift Cards</a></li>
-						<li><a href="/community">Community</a></li>
-						<li><a href="/mall_services">Mall Services</a></li>
-						<li><a href="/consultations">Consultations</a></li>
+                        <li><a href="/">Guest Services</a></li>
+                        <li><a href="/">Gift Cards</a></li>
+						<li><a href="/">Amenities / WIFI</a></li>
+						<li><a href="/">Security</a></li>
+						<li><a href="/">Accessibility</a></li>
 					</ul>
                 </li>
                 <li>
