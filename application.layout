@@ -207,13 +207,16 @@
                             Follow us on social for <br />activities and news
                         </p>
                         <div class="social_icons">
-                            <a href="//www.facebook.com/halifaxshoppingcentre" target="_blank">
+                            <a href="//www.facebook.com/londonderrymall" target="_blank">
                                 <span id="social_fb"></span>
                             </a>
-                            <a href="//www.twitter.com/shopHSC" target="_blank">
+                            <a href="//twitter.com/LondonderryMall" target="_blank">
                                 <span id="social_twitter"></span>
                             </a>
-                            <a href="//instagram.com/shophsc" target="_blank">
+                            <a href="//www.instagram.com/londonderrymall/" target="_blank">
+                                <span id="social_insta"></span>
+                            </a>
+                            <a href="//www.pinterest.com/londonderrymall/" target="_blank">
                                 <span id="social_insta"></span>
                             </a>
                             <a href="/newsletter">
