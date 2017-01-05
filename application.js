@@ -129,7 +129,7 @@ function renderPromotions(container, template, collection, centre){
             val.store_show = "display:none;";
         }
         if (val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "";
+            val.image_url  = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
         }
         if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
