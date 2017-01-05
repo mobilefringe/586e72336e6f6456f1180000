@@ -38,7 +38,7 @@
         function renderAll(){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            var prefix = "www.londonderry.mallmaverick.com";
+            var prefix = get_prefix();
             console.log(prefix);
             var pages_json = prefix + "/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
