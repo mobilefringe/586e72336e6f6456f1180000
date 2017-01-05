@@ -40,16 +40,17 @@
                         </div>
                         <div class="break"></div>
                     </div>
-                    <div class="blogpost visible-xs-inline-block">
-                        <h2 class="blogpost_title">
-                            <a href='/posts/{{slug}}'>{{ title }}</a>
-                        </h2>
-                        <p class="blogpost_date"><span class="blog-author">by {{ author }{</span> <span class="regular">|</span> {{ published_on }}</p>
-                        <img src="{{ image_url }}" />
-                        <p class="blogpost_discription">{{ body }}</p>
-                        <a href='/posts/{{slug}}' class="readmore">Read More</a>
-                    </div>
+                    
                 </script>
+                <!--<div class="blogpost visible-xs-inline-block">-->
+                <!--        <h2 class="blogpost_title">-->
+                <!--            <a href='/posts/{{slug}}'>{{ title }}</a>-->
+                <!--        </h2>-->
+                <!--        <p class="blogpost_date"><span class="blog-author">by {{ author }{</span> <span class="regular">|</span> {{ published_on }}</p>-->
+                <!--        <img src="{{ image_url }}" />-->
+                <!--        <p class="blogpost_discription">{{ body }}</p>-->
+                <!--        <a href='/posts/{{slug}}' class="readmore">Read More</a>-->
+                <!--    </div>-->
             </div>
         </div>
     </div>
