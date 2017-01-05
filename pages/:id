@@ -37,6 +37,7 @@
         init(e);
         function renderAll(){
             var pathArray = window.location.pathname.split( '/' );
+            console.log(pathArray);
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
