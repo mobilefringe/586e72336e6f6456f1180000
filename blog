@@ -5,10 +5,13 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-6 text-center">
-            <h5><a href="/shop_the_look">BLOG</a></h5>
+            <h5><a href="/posts">BLOG</a></h5>
         </div>
         <div class="col-md-6">
             <h5 class="active_heading">GET THE LOOK</h5>
+        </div>
+        <div class="col-md-6 text-center">
+            <h5><a href="/pages/">News/Development</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
