@@ -322,15 +322,6 @@ function renderEventDetails(container, template, collection, mall_name){
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
-        // var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        // start = new Date (val.start_date + "T04:00:00Z");
-        // end = new Date (val.end_date + "T04:00:00Z");
-        // if (start.toDateString() == end.toDateString()) {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        // } else {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
-        // }
-        
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
@@ -368,10 +359,6 @@ function renderJobs(container, template, collection){
         else {
             val.description_short = val.description;
         }
-        
-        // var show_date = new Date (val.start_date + "T04:00:00Z");
-        // val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
-        
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         val.published_on = show_date.format("MMM D");
         
@@ -419,12 +406,8 @@ function renderJobDetails(container, template, collection, mall_name){
             val.show = "display:none";
         }
         if (val.store_image.indexOf('missing.png') > 0){
-            val.store_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+            val.store_image = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
         }
-        
-        // var show_date = new Date (val.start_date + "T04:00:00Z");
-        // val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
-        
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         val.published_on = show_date.format("MMM D");
     
@@ -701,7 +684,7 @@ function renderPosts(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+            val.post_image = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
         } else {
             val.post_image = val.image_url;
         }
