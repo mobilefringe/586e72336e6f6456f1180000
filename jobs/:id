@@ -15,7 +15,15 @@
                 </p>
                 <p class="promo_dates underline">{{dates}}</p>
                 <div class="details_desc">{{{rich_description}}}</div>
-                <p>Contact Info: {{email}}</p>
+                {{#contact_name}}
+                <p>{{contact_name}}</p>
+                {{/contact_name}}
+                {{#contact_phone}}
+                <p>{{conact_phone}}</p>
+                {{/contact_phone}}
+                {{#contact_email}}
+                <p>{{conatct_email}}</p>
+                {{/contact_email}}
             </div>
             <div class="col-md-4 hidden_phone">
                 <img src="{{store_image}}" alt="Store Logo" class="store_logo" />
@@ -36,7 +44,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             promo_details = getJobDetailsBySlug(slug);
-            renderJobDetails('#promo_details_container', '#promo_details_template', promo_details, "Halifax")
+            renderJobDetails('#promo_details_container', '#promo_details_template', promo_details, "Londonderry Mall")
             show_content();
         }
         loadMallDataCached(renderAll); 
