@@ -19,7 +19,6 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/promotions">Promotions</option>
             <option value="/events">Events</option>
-            <option value="/development">Development</option>
         </select>
     </h5>
 </div>
