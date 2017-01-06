@@ -82,7 +82,7 @@
                 } 
             });
             if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos, "Halifax");
+                renderPromotions("#promos_container","#promos_template", published_promos, "Londonderry");
             }
             else{
                 $('#no_promos').show()
