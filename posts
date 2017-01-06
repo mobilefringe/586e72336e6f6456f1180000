@@ -42,7 +42,7 @@
                                 <a href='/posts/{{slug}}' class="readmore">Read More</a>
                             </div>
                         </div>
-                        <div class="break"></div>
+                        <div class="margin_20"></div>
                     </div>
                     
                 </script>
