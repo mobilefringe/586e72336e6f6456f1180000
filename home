@@ -17,7 +17,8 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/jpeg/1464191314000/hsc_facebook-1.jpg" alt="fb">
                 </a>
                 <div class="hidden_phone social_box text-center" id="social_fb">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
+                    <!--<img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">-->
+                    <img src="http://assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1483711310000/Facebook Icon.png" class="" alt="Facebook Logo">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                     <p>
                         <a  class="social_link_blank" href="//www.facebook.com/londonderrymall" target="_blank">Facebook/LondonderryMall</a> <br />
