@@ -20,7 +20,7 @@
             <!--end mail chimp hidden inputs-->
         </form>
         <form id="newsletter_form">
-            <div class="floater-left">
+            <div class="floater-left col-6-md">
                 <!--<input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />-->
                 <!--<input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />-->
                 <!--<input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />-->
@@ -31,7 +31,7 @@
                 <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
                 <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
             </div>
-            <div class="floater-left">
+            <div class="floater-left col-6-md">
                 <label for="lastName_newsletter">Last name *</label>
                 <br/>
                 <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
