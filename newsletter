@@ -33,31 +33,31 @@
                 <!--end mail chimp hidden inputs-->
             </form>  
             <form id="newsletter_form">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <label for="firstName_newsletter">First Name *</label> 
                     <br/>
                     <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
                     <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <label for="lastName_newsletter">Last name *</label>
                     <br/>
                     <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
                 </div>
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <label for="fieldEmail_newsletter">Email *</label> 
                     <br/>
                     <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-tylikj-tylikj" type="email" required />
                     <div class="margin_20"></div>
                 </div>
                 
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <p style="font-size: 13px;">
                         <input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;">
                         <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Londonderry Mall via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label>
                     </p>    
                 </div>
-                <div class="col-sm-12">     
+                <div class="col-md-12">     
                     <button class="newsletter_btn animated_btn text-center" name="commit" type="submit" value="SUBMIT" style="width:150px;">SUBMIT</button>            
                     <div class="margin_20"></div>
                 </div>
