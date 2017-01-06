@@ -123,7 +123,6 @@ function renderPromotions(container, template, collection, centre){
         }
         else{
             val.image_url = val.promo_image_url_abs;
-            // val.image_url = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
             val.store_name = mall_name;
             val.store_slug = "/"
             val.store_show = "display:none;";
@@ -147,7 +146,6 @@ function renderPromotions(container, template, collection, centre){
         else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
