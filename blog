@@ -11,14 +11,14 @@
             <h5 class="active_heading">GET THE LOOK</h5>
         </div>
         <div class="col-md-4 text-center">
-            <h5><a href="/pages/">NEWS/DEVELOPMENT</a></h5>
+            <h5><a href="/news">NEWS/DEVELOPMENT</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/posts">Blog</option>
-            <option value="/pages/">News/Development</option>
+            <option value="/news">News/Development</option>
         </select>
     </h5>
 </div>
