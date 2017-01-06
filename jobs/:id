@@ -15,15 +15,18 @@
                 </p>
                 <p class="promo_dates underline">{{dates}}</p>
                 <div class="details_desc">{{{rich_description}}}</div>
+                <p> Contact Info: 
+                    <span>
                 {{#contact_name}}
-                <p>{{contact_name}}</p>
+                <span>{{contact_name}}</span>
                 {{/contact_name}}
                 {{#contact_phone}}
-                <p>{{conact_phone}}</p>
+                <span>{{conact_phone}}</span>
                 {{/contact_phone}}
                 {{#contact_email}}
-                <p>{{contact_email}}</p>
+                <span>{{contact_email}}</span>
                 {{/contact_email}}
+                </p>
             </div>
             <div class="col-md-4 hidden_phone">
                 <img src="{{store_image}}" alt="Store Logo" class="store_logo" />
