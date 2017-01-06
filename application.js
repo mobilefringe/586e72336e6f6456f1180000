@@ -308,7 +308,7 @@ function renderEventDetails(container, template, collection, mall_name){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+            val.store_image = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
