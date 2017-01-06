@@ -5,14 +5,9 @@
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <p>Be the first to know! Sign up to receive the latest Londonderry Mall updates including contests, events and promotions.</p>
-    
     <div class="newsletter_page">
-    
-    
-    <form action="//halifaxshoppingcentre.us2.list-manage.com/subscribe/post-json?u=606e5e50d5c4e3e328b36adbe&amp;id=69aa212972&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
-         <!--mail chimp hidden inputs-->
-                
-                
+        <form action="//halifaxshoppingcentre.us2.list-manage.com/subscribe/post-json?u=606e5e50d5c4e3e328b36adbe&amp;id=69aa212972&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
+            <!--mail chimp hidden inputs-->
                 <input title="advice newsletter" class="newletter-hidden" id="mce-FNAME" name="FNAME" type="hidden" />
                 <input title="advice newsletter" class="newletter-hidden" id="mce-LNAME" name="LNAME" type="hidden" />
                 <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
@@ -22,27 +17,15 @@
                 <input title="contest newsletter" class="newletter-hidden" name="group[5][2]" id="mce-group[5]-5-1" type="hidden" />
                 <input title="sales newsletter" class="newletter-hidden" name="group[5][4]" id="mce-group[5]-5-2" type="hidden" />
                 <input title="advice newsletter" class="newletter-hidden" name="group[5][8]" id="mce-group[5]-5-3" type="hidden" />
-                
-                
-                
-                <!--end mail chimp hidden inputs-->
-    </form>
-    
-    
+            <!--end mail chimp hidden inputs-->
+        </form>
         <form id="newsletter_form">
-    
             <div class="floater-left">
-                <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
-               <input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />
-               <input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />
-                <input title="advice newsletter" class="newletter-hidden" id="fieldwkddl_newsletter" name="cm-f-wkddl" type="hidden" />
-                
-               
-                
-                
-                <input title="birthday newsletter" class="newletter-hidden" id="fieldjuqp_newsletter" name="cm-f-juqp" type="hidden" />
-                
-                
+                <!--<input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />-->
+                <!--<input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />-->
+                <!--<input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />-->
+                <!--<input title="advice newsletter" class="newletter-hidden" id="fieldwkddl_newsletter" name="cm-f-wkddl" type="hidden" />-->
+                <!--<input title="birthday newsletter" class="newletter-hidden" id="fieldjuqp_newsletter" name="cm-f-juqp" type="hidden" />-->
                 <label for="firstName_newsletter">First Name *</label> 
                 <br/>
                 <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
@@ -60,7 +43,7 @@
             </div>
             <div style="clear:both;"></div>
             
-            <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
+            <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Londonderry Mall via electronic messaging; and I acknowledge that I have read and understand the 
             <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>
             <div>     
                 <button class="newsletter_btn animated_btn text-center" name="commit" type="submit" value="SUBMIT" style="width:150px;">SUBMIT</button>            
