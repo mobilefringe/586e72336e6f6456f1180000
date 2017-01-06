@@ -18,10 +18,10 @@
                 <p> Contact Info: 
                     <span>
                 {{#contact_name}}
-                <span>{{contact_name}},</span>
+                <span>{{contact_name}}Caitlin,</span>
                 {{/contact_name}}
                 {{#contact_phone}}
-                <span>{{conact_phone}},</span>
+                <span>{{conact_phone}}905-555-0192,</span>
                 {{/contact_phone}}
                 {{#contact_email}}
                 <span>{{contact_email}}</span>
