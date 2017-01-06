@@ -33,13 +33,13 @@
                 <!--end mail chimp hidden inputs-->
             </form>  
             <form id="newsletter_form">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <label for="firstName_newsletter">First Name *</label> 
                     <br/>
                     <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
                     <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <label for="lastName_newsletter">Last name *</label>
                     <br/>
                     <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
