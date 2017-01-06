@@ -22,7 +22,7 @@
                 <p>{{conact_phone}}</p>
                 {{/contact_phone}}
                 {{#contact_email}}
-                <p>{{conatct_email}}</p>
+                <p>{{contact_email}}</p>
                 {{/contact_email}}
             </div>
             <div class="col-md-4 hidden_phone">
