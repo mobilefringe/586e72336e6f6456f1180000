@@ -40,8 +40,9 @@
                     <label for="fieldEmail_newsletter">Email *</label> 
                     <br/>
                     <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-tylikj-tylikj" type="email" required />
+                    <div class="margin_20"></div>
                 </div>
-                <div class="margin_20"></div>
+                
                 <div class="col-md-12">
                     <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
                     <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>    
