@@ -165,7 +165,7 @@ function renderPromoDetails(container, template, collection, centre){
             val.store_name = store_details.name;
             val.store_image = store_details.store_front_url_abs;
             val.store_slug = store_details.slug
-            val.store_show = "display:inline-block";
+            val.store_show = "display:block";
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:inline-block";
                 val.website = store_details.website
@@ -174,7 +174,7 @@ function renderPromoDetails(container, template, collection, centre){
                 val.show = "display:none";
             }
             if (store_details.phone != null && store_details.phone.length > 0){
-                val.phone_show = "display:inline-block";
+                val.phone_show = "display:block";
                 val.phone = store_details.phone
             }
             else{
