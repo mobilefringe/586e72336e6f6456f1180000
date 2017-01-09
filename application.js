@@ -187,6 +187,7 @@ function renderPromoDetails(container, template, collection, centre){
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
+            val.store_name_show = "display: none";
         }
         val.image_url = val.promo_image_url_abs
         if(val.image_url.indexOf('missing.png') > 0){
