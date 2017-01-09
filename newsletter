@@ -77,7 +77,7 @@
         if (errors > 0) {
             alert(error_string);
             return false;
-        }
+        
     
         // if ($("#agree_newsletter_page").prop("checked") != true){
         //     alert("Please agree to receive our newsletter.");
