@@ -19,19 +19,6 @@
             </div>
         </div>
         <div class="row">
-            <form action="//halifaxshoppingcentre.us2.list-manage.com/subscribe/post-json?u=606e5e50d5c4e3e328b36adbe&amp;id=69aa212972&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
-                <!--mail chimp hidden inputs-->
-                    <input title="advice newsletter" class="newletter-hidden" id="mce-FNAME" name="FNAME" type="hidden" />
-                    <input title="advice newsletter" class="newletter-hidden" id="mce-LNAME" name="LNAME" type="hidden" />
-                    <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
-                    <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE4" name="MMERGE4" type="hidden" />
-                    <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE5" name="MMERGE5" type="hidden" />
-                    <input title="giftcard newsletter" class="newletter-hidden" name="group[5][1]" id="mce-group[5]-5-0" type="hidden" />
-                    <input title="contest newsletter" class="newletter-hidden" name="group[5][2]" id="mce-group[5]-5-1" type="hidden" />
-                    <input title="sales newsletter" class="newletter-hidden" name="group[5][4]" id="mce-group[5]-5-2" type="hidden" />
-                    <input title="advice newsletter" class="newletter-hidden" name="group[5][8]" id="mce-group[5]-5-3" type="hidden" />
-                <!--end mail chimp hidden inputs-->
-            </form>  
             <form id="newsletter_form">
                 <div class="col-md-6">
                     <label for="firstName_newsletter">First Name *</label> 
@@ -65,126 +52,29 @@
         </div>
     </div>
 </div>
-    <script type="text/javascript">
-        $(document).ready(function(e){
-            init(e);
-            show_content();
-        })
+<script type="text/javascript">
+    $(document).ready(function(e){
+        init(e);
+        show_content();
+    })
     
-        
-        $("#newsletter_form").submit(function( e ) {
+    $("#newsletter_form").submit(function( e ) {
         e.preventDefault();
-        
-
-            
-            var error_string ="";
-            var errors = 0;
-    
-            
-            if ($("#firstname").val() == "") {
-                error_string += ("Please enter your first name.\n ") 
-                errors = errors +1;
-            }
-            if ($("#lastname").val() == "") {
-                error_string += ("Please enter your last name.\n");
-                errors = errors +1;
-            } 
-            if ($("#email").val() == ""); {
-                error_string += ("Please enter your email address.\n");
-                errors = errors +1;
-            }
-            if ($("#agree_newsletter_page").prop("checked") != true) {
-                error_string += ("Please agree to receive newsletters from Londonderry Mall. \n")
-                errors = errors +1;
-            }
-            if (errors > 0) {
-                alert(error_string);
-                return false;
-            }
-        });
-        
-        
-        
-        
-            // } else {
-            //     var firstName = $('#firstName_newsletter').val();
-            //     var lastName = $('#lastName_newsletter').val();
-            //     var name = firstName + " " + lastName;
-            //     $('#fieldName_newsletter.newletter-hidden').val(name);
-                
-                
-            //     visited = 100; 
-            //     $.cookie('visited', visited, { expires: 7 });
-            //     $.getJSON(
-            //         "//mobilefringe.createsend.com/t/d/s/tylikj/?callback=?",
-            //       $("#newsletter_form").serialize(),
-            //         function (data) {
-            //             if (data.Status === 400) {
-            //                 alert("Please try again later.");
-            //             } else { // 200
-            //                 console.log(data)
-            //                 submitToMailChimp();
-            //             }
-            //     }); 
-            
-          
-        // });
-        
-        function submitToMailChimp(){
-            var firstName = $('#firstName_newsletter').val();
-            var lastName = $('#lastName_newsletter').val();
-            var giftcard = getCheckBoxValue('#giftcard_newsletter');
-            var contest = getCheckBoxValue('#contest_newsletter');
-            var sales = getCheckBoxValue('#sales_newsletter');
-            var advice = getCheckBoxValue('#advice_newsletter');
-            var birthday = getCheckBoxValue('#birthdayCheck');
-            
-            $("#mce-FNAME").val(firstName)
-                $("#mce-LNAME").val(lastName)
-                $("#mce-EMAIL").val($('#fieldEmail_newsletter').val())
-                $("#mce-MMERGE4").val($('#fieldBirthday_newsletter').val()) 
-                $("#mce-MMERGE5").val($('#birthdayCheck').val()) 
-                $("#mce-group[5]-5-0").val(giftcard);
-                $("#mce-group[5]-5-1").val(contest);
-                $("#mce-group[5]-5-2").val(sales);
-                $("#mce-group[5]-5-3").val(advice);
-                
-    
-                
-                
-                $.ajax({
-                    type: $("#mc-embedded-subscribe-form").attr('method'),
-                    url: $("#mc-embedded-subscribe-form").attr('action'),
-                    data: $("#mc-embedded-subscribe-form").serialize(),
-                    cache       : false,
-                    dataType    : 'json',
-                    contentType: "application/json; charset=utf-8",
-                    error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
-                    success     : function(data) {
-                        if (data.result != "success") {
-                            window.location.href="/thank_you"
-                        } else {
-                            
-                            window.location.href="/thank_you"
-                        }
+        if ($("#agree_newsletter_page").prop("checked") != true){
+            alert("Please agree to the receiving newsletter.");
+            $("#agree_newsletter_page").focus();
+        } else {
+            $.getJSON(
+                this.action + "?callback=?",
+                $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        alert("Please try again later.");
+                    } else { // 200
+                        alert("Thank you for subscribing to our newsletter.");
+                        $('#newsletter_form').trigger('reset')
                     }
-                })
+            });
         }
-     
-        function getCheckBoxValue(checkbox){
-            if($(checkbox).prop('checked')){
-                return "1";
-            }else {
-                return "0";
-            }
-        }
-        $(function() {
-            var location = window.location.toString();
-            if (location.indexOf("s=1") != -1) {
-                alert("You least form request has been submitted.")
-            } else if (location.indexOf("s=0") != -1) {
-                alert("Please try to submit the form later.")
-            }
-        });
-    </script>
-    
+    });
+</script>
