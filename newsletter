@@ -41,9 +41,9 @@
                     </p>
                     <div>     
                         <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
-                    </div>    
+                    </div> 
+                    <div class="margin_20"></div>
                 </div>
-
             </form>
         </div>
     </div>
