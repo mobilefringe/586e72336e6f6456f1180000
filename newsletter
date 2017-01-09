@@ -37,12 +37,11 @@
                         <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Londonderry Mall via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label>
                             
                     </p>
-                <div>     
-                    <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
-                </div>    
+                    <div>     
+                        <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
+                    </div>    
                 </div>
-                
-                
+
             </form>
         </div>
     </div>
