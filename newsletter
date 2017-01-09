@@ -1,10 +1,10 @@
 <style>
-    .firstname-newsletter, .lastname-newsletter, .email-newsletter {
-        margin-bottom: 20px;
-        width: 100%;
-        border: 1px solid #58595b;
-        box-shadow: none;
-    }
+    /*.firstname-newsletter, .lastname-newsletter, .email-newsletter {*/
+    /*    margin-bottom: 20px;*/
+    /*    width: 100%;*/
+    /*    border: 1px solid #58595b;*/
+    /*    box-shadow: none;*/
+    /*}*/
 </style>
 <div class="newsletter_banner text-center">
     <h3>NEWSLETTER SIGN-UP</h3>
