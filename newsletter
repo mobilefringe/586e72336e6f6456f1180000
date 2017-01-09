@@ -1,10 +1,10 @@
 <style>
-    /*.firstname-newsletter, .lastname-newsletter, .email-newsletter {*/
-    /*    margin-bottom: 20px;*/
-    /*    width: 100%;*/
-    /*    border: 1px solid #58595b;*/
-    /*    box-shadow: none;*/
-    /*}*/
+    #cm-name, #fieldEmail_newsletter {
+        margin-bottom: 20px;
+        width: 100%;
+        border: 1px solid #58595b;
+        box-shadow: none;
+    }
 </style>
 <div class="newsletter_banner text-center">
     <h3>NEWSLETTER SIGN-UP</h3>
@@ -22,7 +22,7 @@
         <div class="row">
             <form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/ykddht/" method="post">
                 <div class="col-md-12">
-                    <label for="cm-name">Name *</label> 
+                    <label for="cm-name">Full Name *</label> 
                     <br/>
                     <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
                     <div class="margin_20"></div>
