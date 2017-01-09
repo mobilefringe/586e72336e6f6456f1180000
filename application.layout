@@ -313,10 +313,10 @@
                     event.stopPropagation();
                 }); 
             }
+            //loadMallData is located in mallmaverick.js, the call back method ensures the data is loaded
+            loadMallData(renderPageData);
         });
-        //loadMallData is located in mallmaverick.js, the call back method ensures the data is loaded
-        loadMallData(renderPageData);
-        }
+        
     </script>
 </body>
 
