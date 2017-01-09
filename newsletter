@@ -56,10 +56,6 @@
     
     $("#newsletter_form").submit(function( e ) {
         e.preventDefault();
-        if ($("#cm-name").val = 0) {
-            alert("Please enter your name.");
-            $("#cm-name").focus();
-        }
         if ($("#agree_newsletter_page").prop("checked") != true){
             alert("Please agree to receive our newsletter.");
             $("#agree_newsletter_page").focus();
