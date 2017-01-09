@@ -1,7 +1,7 @@
 <style>
     #cm-name, #fieldEmail_newsletter {
         margin-bottom: 20px;
-        width: 100%;
+        width: 50%;
         border: 1px solid #58595b;
         box-shadow: none;
     }
