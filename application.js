@@ -167,7 +167,7 @@ function renderPromoDetails(container, template, collection, centre){
             val.store_slug = store_details.slug
             val.store_show = "display:block";
             if (store_details.website != null && store_details.website.length > 0){
-                val.show = "display:inline-block";
+                val.show = "display:block";
                 val.website = store_details.website
             }
             else{
