@@ -24,12 +24,13 @@
                     <label for="cm-name">Name *</label> 
                     <br/>
                     <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
+                    <div class="margin_20"></div>
                 </div>
-                <br />
                 <div class="col-md-12">
                     <label for="fieldEmail_newsletter">Email *</label> 
                     <br/>
                     <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykddht-ykddht" type="email" required />
+                    <div class="margin_20"></div>
                 </div>
                 <div class="col-md-12">
                     <p style="font-size: 13px;">
