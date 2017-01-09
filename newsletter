@@ -74,45 +74,58 @@
         
         $("#newsletter_form").submit(function( e ) {
         e.preventDefault();
-            if ($("#agree_newsletter_page").prop("checked") != true){
-                alert("Please agree to the receiving newsletter.");
-                $("#agree_newsletter_page").focus();
-            } else {
-                var firstName = $('#firstName_newsletter').val();
-                var lastName = $('#lastName_newsletter').val();
-                var name = firstName + " " + lastName;
-                $('#fieldName_newsletter.newletter-hidden').val(name);
+        
+
+            
+            var error_string ="";
+            var errors = 0;
+    
+            
+            if ($("#firstname").val() == "") {
+                error_string += ("Please enter your first name.\n ") 
+                errors = errors +1;
+            }
+            if ($("#lastname").val() == "") {
+                error_string += ("Please enter your last name.\n");
+                errors = errors +1;
+            } 
+            if ($("#email").val() == ""); {
+                error_string += ("Please enter your email address.\n");
+                errors = errors +1;
+            }
+            if ($("#agree_newsletter_page").prop("checked") != true) {
+                error_string += ("Please agree to receive newsletters from Londonderry Mall. \n")
+                errors = errors +1;
+            }
+            if (errors > 0) {
+                alert(error_string);
+                return false;
+            }
+        }
+        
+        
+        
+        
+            // } else {
+            //     var firstName = $('#firstName_newsletter').val();
+            //     var lastName = $('#lastName_newsletter').val();
+            //     var name = firstName + " " + lastName;
+            //     $('#fieldName_newsletter.newletter-hidden').val(name);
                 
-                var giftcard = getCheckBoxValue('#giftcard_newsletter');
-                var contest = getCheckBoxValue('#contest_newsletter');
-                var sales = getCheckBoxValue('#sales_newsletter');
-                var advice = getCheckBoxValue('#advice_newsletter');
-                var birthday = getCheckBoxValue('#birthdayCheck');
-                $('#fieldwkdij_newsletter.newletter-hidden').val(giftcard);
-                $('#fieldwkdik_newsletter.newletter-hidden').val(contest);
-                $('#fieldwkdiu_newsletter.newletter-hidden').val(sales);
-                $('#fieldjuqp_newsletter.newletter-hidden').val(birthday);
-                $('#fieldwkddl_newsletter.newletter-hidden').val(advice);
-                visited = 100; 
-                $.cookie('visited', visited, { expires: 7 });
-                $.getJSON(
-                    "//mobilefringe.createsend.com/t/d/s/tylikj/?callback=?",
-                  $("#newsletter_form").serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert("Please try again later.");
-                        } else { // 200
-                            console.log(data)
-                            submitToMailChimp();
-                        }
-                }); 
                 
-                
-                
-                
-                
-                
-                
+            //     visited = 100; 
+            //     $.cookie('visited', visited, { expires: 7 });
+            //     $.getJSON(
+            //         "//mobilefringe.createsend.com/t/d/s/tylikj/?callback=?",
+            //       $("#newsletter_form").serialize(),
+            //         function (data) {
+            //             if (data.Status === 400) {
+            //                 alert("Please try again later.");
+            //             } else { // 200
+            //                 console.log(data)
+            //                 submitToMailChimp();
+            //             }
+            //     }); 
             }
           
         });
