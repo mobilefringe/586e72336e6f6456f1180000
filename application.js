@@ -182,8 +182,7 @@ function renderPromoDetails(container, template, collection, centre){
             }
         }
         else{
-            // val.store_name = mall_name;
-            val.store_name = "display: none";
+            val.store_name = mall_name;
             val.store_image = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
             val.store_show = "display:none";
             val.phone_show = "display:none";
