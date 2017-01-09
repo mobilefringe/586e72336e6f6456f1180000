@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="row">
-            <form id="newsletter_form" action="" method="post">
+            <form id="newsletter_form" action="http://mobilefringe.createsend.com/t/d/s/ykbo/" method="post">
                 <div class="col-md-12">
                     <label for="cm-name">Full Name *</label> 
                     <br/>
@@ -30,7 +30,7 @@
                 <div class="col-md-12">
                     <label for="fieldEmail_newsletter">Email *</label> 
                     <br/>
-                    <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykddht-ykddht" type="email" required />
+                    <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykbo-ykbo" type="email" required />
                     <div class="margin_20"></div>
                 </div>
                 <div class="col-md-12">
