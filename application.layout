@@ -67,6 +67,22 @@
 </head>
 
 <body class="">
+
+    <!-- popup html form starts-->
+    <div class="hidden-popup-bg">
+        <div class="hidden-popup-form">
+            <div class="popup-header">
+               <p onclick="close_popup();" class="popup-close pull-right">X</p>
+            </div>
+            <div class="popup-body">
+                <a id="pp_url" href="">
+                    <img id="pp_img" src="" class="" alt="">
+                </a>
+            </div>
+       </div>
+
+    </div>
+    <!-- popup form ends-->
     
     <div class="mobile_menu_container">
         <div class="opened_mobile_menu">
