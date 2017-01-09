@@ -128,7 +128,7 @@
             //     }); 
             
           
-        });
+        // });
         
         function submitToMailChimp(){
             var firstName = $('#firstName_newsletter').val();
