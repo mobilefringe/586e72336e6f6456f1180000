@@ -12,13 +12,10 @@
             </div>
             
             <div class="feature_item">
-                
                 <a href="//www.facebook.com/londonderrymall" target="_blank" class="show_phone">
-                    <!--<img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/jpeg/1464191314000/hsc_facebook-1.jpg" alt="fb">-->
                     <img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/jpeg/1483989481000/Facebook Mobile.jpg" class="" alt="">
                 </a>
                 <div class="hidden_phone social_box text-center" id="social_fb">
-                    <!--<img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">-->
                     <img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483732175000/facebook__icon_post.png" class="home_icon" alt="Facebook Logo">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                     <p>
@@ -26,20 +23,17 @@
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
-                
                 <div id="feature_2" class="position_relative"></div>
                 <div id="feature_3" class="position_relative"></div>
             </div>
             
             <div class="feature_item">
                 <div id="feature_4" class="position_relative"></div>
-                
                 <a class="show_phone" href="//twitter.com/LondonderryMall" target="_blank">
                     <img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/jpeg/1483989481000/Twitter Mobile.jpg" class="" alt="">    
                 </a>
                 <div class="social_box hidden_phone text-center" d="social_twitter">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434698000/tweet.png" class="" alt="tweet">
-                    <!--<img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483713599000/twitter_icon.png" class="home_icon" alt="Twitter Logo">-->
                     <div>
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
                         <p>
@@ -48,7 +42,6 @@
                         </p>
                     </div>
                 </div>
-                
                 <div id="feature_5" class="position_relative"></div>
             </div>
             
@@ -59,7 +52,6 @@
                     </a>
                     <a href="/hours" class=" hidden_phone social_box text-center hours_box" id="hours_box">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463772189000/hours.png" class="" alt="hours">
-                        <!--<img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483713517000/clock_icon.png" class="home_icon" alt="Clock Icon">-->
                         <div id="home_hours_container2" class="home_feature_hours">
                             <script id="home_hours_template2" type="x-tmpl-mustache/text">
                                 <h5>SHOPPING HOURS</h5>
