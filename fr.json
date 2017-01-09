@@ -1,0 +1,80 @@
+{
+  "app": {
+    "name": "i18next",
+    "privacy_policy":"Privacy Policy_fr"
+  },
+  "nav": {
+    "directory": "Directory_fr",
+    "stores": "Stores_fr",
+    "promotions": "Promotions_fr",
+    "events": "Events/News_fr",
+    "services": "Customer Services_fr",
+    "jobs": "Careers_fr",
+    "about": "About Us_fr",
+    "contact": "Contact Us_fr",
+    "subnav" :{
+        "directions":"Directions_fr",
+        "opening_hours":"Opening Hours_fr",
+        "how_to_get_here":"How To Get Here_fr",
+        "parking_information":"Parking Information_fr",
+        "administration_hours":"Contact_fr",
+        "accessibility":"Accessibility_fr",
+        "place_vertu":"Place Vertu_fr",
+        "leasing_information":"Leasing Information_fr",
+        "charities":"Charities_fr",
+        "green_initiatives":"Green Initiatives_fr",
+        "contract_policy":"Contract Policy_fr",
+        "gift_cards":"Gift Cards_fr",
+        "customer_services":"Customer Services_fr",
+        "fitness_walking_club":"Fitness Walking Club_fr",
+        "welcome_to_families": "Welcome To Families_fr",
+        "wifi":"Wifi_fr",
+        "stores_a-z":"Select Stores A-Z_fr",
+        "categories":"Categories_fr"
+    },
+    "locale":{
+        "english":"English",
+        "french":"Français"
+    }
+  },
+  "days_of_week":{
+      "0": "Sunday_fr",
+      "1": "Monday_fr",
+      "2": "Tuesday_fr",
+      "3": "Wednesday_fr",
+      "4": "Thursday_fr",
+      "5": "Friday_fr",
+      "6": "Sunday_fr"
+  },
+  "general":{
+      "todays_hours":"Today's Hours_fr",
+      "closed":"Closed_fr",
+      "regular_hours":"Regular Hours_fr",
+      "holiday_hours":"Holiday Hours_fr",
+      "gift_card":"Gift Card_fr",
+      "be_the_first_to_know":"Be The First To Know_fr",
+      "join_txt":"Join our list and stay connected_fr",
+      "click_more_button":"Click For More_fr",
+      "powered_by_mall_maverick":"Powered by Mall Maverick_fr",
+      "all_rights_reserved":"All Rights Reserved_fr",
+      "directions":"Directions_fr",
+      "promotion":"Promotion_fr",
+      "career":"Career_fr",
+      "no_jobs":"No career information at this time, please check back again soon._fr",
+      "no_promotions":"No promotions at this time, please check back again soon._fr",
+      "no_events":"No events at this time, please check back again soon._fr",
+      "no_stores":"No stores at this time, please check back again soon._fr",
+      "404_header":"Sorry we couldn't find the page you were looking for_fr",
+      "404_message":"Thanks for visiting Place Vertu's website infortunately we couldnt find the page you were lookng for. To help find what you are looking for please use the search box or navgation menu above. Thanks for visiting Place Vertu, have a great day._fr",
+      "seach":"search_fr",
+      "results":"Results_fr",
+      "general.to":"to",
+      "loading_stores":"Loading Stores...._fr",
+      "loading_promotions":"Loading Promotions...._fr",
+      "loading_jobs":"Loading Jobs...._fr",
+      "loading_events":"Loading Events...._fr",
+      "search_placeholder":"by keyword_fr",
+      "enter_email":"enter email_fr",
+      "submit":"Submit_fr"
+  }
+}
