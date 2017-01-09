@@ -56,7 +56,10 @@
     
     $("#newsletter_form").submit(function( e ) {
         e.preventDefault();
-        
+        validateForm();
+    });
+    
+    function validateForm() {
         var error_string ="";
         var errors = 0;
 
@@ -94,6 +97,6 @@
                         $('#newsletter_form').trigger('reset')
                     }
             });
-        }
-    });
+        }    
+    }
 </script>
