@@ -5,10 +5,10 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-12 spec_offer">
-            <h5 class="active_heading"><a href="/promotions">< BACK TO PROMOTIONS LIST</a></h5>
+            <h5 class="active_heading"><a href="/jobs">< BACK TO JOBS LIST</a></h5>
         </div>
     </div>
-    <h5 class="text-center tap_here show_phone"><a href="/promotions">< BACK TO PROMOTIONS LIST</a></h5>
+    <h5 class="text-center tap_here show_phone"><a href="/jobs">< BACK TO JOBS LIST</a></h5>
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container">
