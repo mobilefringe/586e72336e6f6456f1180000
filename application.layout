@@ -19,7 +19,7 @@
     <meta name="twitter:description" content="{{meta_description}}" />
     <meta name="twitter:image" content="{{meta_image}}" />
     
-    <title>Hello</title>
+    <title>{{meta_title}}</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="https://codecloud.cdn.speedyrails.net/sites/57bb4aaa6e6f64731e040000/image/png/undefined/Londonderryicon2016.png" type="image/x-icon" />
    
