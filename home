@@ -82,7 +82,6 @@
             renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)   
             show_content();
         }
-        
         loadMallDataCached(renderAll); 
     })
     function render_social(){
@@ -112,12 +111,12 @@
     }
 </script>
 <script type="text/javascript">
-(function l(d){
- var site = '6763', page = 'Homepage', s, er = d.createElement('script');
- er.type = 'text/javascript';
- er.async = true;
- er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
- s = d.getElementsByTagName('script')[0];
- s.parentNode.insertBefore(er, s);
-})(document);
+    (function l(d){
+     var site = '6763', page = 'Homepage', s, er = d.createElement('script');
+     er.type = 'text/javascript';
+     er.async = true;
+     er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
+     s = d.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(er, s);
+    })(document);
 </script>
