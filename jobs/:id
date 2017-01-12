@@ -29,7 +29,7 @@
                         <span>{{contact_name}}, </span>
                         {{/contact_name}}
                         {{#contact_phone}}
-                        <span>{{conact_phone}}, </span>
+                        <span>{{contact_phone}}, </span>
                         {{/contact_phone}}
                         {{#contact_email}}
                         <span><a href="mailto:{{contact_email}}">{{contact_email}}</a></span>
