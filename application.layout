@@ -107,7 +107,7 @@
                     <a href="#" class="submenu_expander open">
                         STORES
                         <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: none;">
-						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: inline;">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: inline;">
                     </a>
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
@@ -118,7 +118,7 @@
                     <a href="#" class="submenu_expander">
                         WHAT'S HAPPENING
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/promotions">Promotions</a></li>
@@ -130,7 +130,7 @@
                     <a href="#" class="submenu_expander">
                         BLOG / NEWS
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/posts">Londonderry Style</a></li>
@@ -142,7 +142,7 @@
                     <a href="#"  class="submenu_expander">
                         SERVICES
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/guest_services">Guest Services</a></li>
@@ -156,7 +156,7 @@
                     <a href="#" class="submenu_expander">
                         PLAN YOUR VISIT
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/directions">Directions</a></li>
