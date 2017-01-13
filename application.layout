@@ -117,7 +117,7 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         WHAT'S HAPPENING
-                        <img class="menu_icon plus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
