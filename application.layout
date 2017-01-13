@@ -106,7 +106,7 @@
                 <li>
                     <a href="#" class="submenu_expander open">
                         STORES
-                        <img class="menu_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: none;">
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: none;">
 						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: inline;">
                     </a>
                     <ul class="sub_menu">
@@ -129,8 +129,8 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         BLOG / NEWS
-                        <img class="menu_icon plus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/posts">Londonderry Style</a></li>
@@ -141,8 +141,8 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         SERVICES
-                        <img class="menu_icon plus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/guest_services">Guest Services</a></li>
@@ -155,8 +155,8 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         PLAN YOUR VISIT
-                        <img class="menu_icon plus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/directions">Directions</a></li>
@@ -166,8 +166,8 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         CONTACT US
-                        <img class="menu_icon plus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/contact_us">Contact Us</a></li>
