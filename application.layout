@@ -54,7 +54,7 @@
             $(".hidden-popup-bg").fadeOut();
         }  
         
-        setEndPoint('//londonderry.mallmaverick.com/api/v3/londonderry/all.json');
+        setEndPoint('https://twinpines.mallmaverickstaging.com/api/v3/twinpines/all.json');
         setSocialEndPoint('//londonderry.mallmaverick.com/api/v2/londonderry/social.json');
         sessionStorage.setItem('primary_locale', 'en-CA');
         sessionStorage.setItem('secondary_locale', 'fr-CA');
