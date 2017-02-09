@@ -27,7 +27,7 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
-                <div id="events_not_empty_section">
+                  <div id="events_not_empty_section">
                     <div class="" id="events_list">
                         <script id="event_item_template" type="x-tmpl-mustache">
                             <div class="promo-details">
@@ -37,8 +37,8 @@
                                 <div class="event-name">
                                     <h3>{{ name }}</h3>
                                 </div>
-                                <div class="promo_dates">
-                                    {{ start_date }} to {{ end_date }}
+                                <div class="event-dates">
+                                    {{dates}}
                                 </div>
                                 <hr>
                                 <div class="event-description">
