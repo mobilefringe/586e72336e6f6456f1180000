@@ -530,7 +530,7 @@ function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,em
                 } else {
                     val.show = '';
                 }
-                val.event_image_url =  "//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/jpeg/1486658367000/logo.jpg";
+                val.event_image_url =  "//assets.codecloudapp.com/sites/586e72336e6f6456f1180000/image/png/1486658520000/Screen Shot 2017-02-09 at 11.41.55 AM.png";
             }
             item_list.push(val);        
         }
