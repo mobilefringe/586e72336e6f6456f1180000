@@ -38,7 +38,7 @@
                                     <h3>{{ name }}</h3>
                                 </div>
                                 <div class="event-dates">
-                                    {{ start_date }} to {{ end_date }}
+                                    {{dates}}
                                 </div>
                                 <hr>
                                 <div class="event-description">
