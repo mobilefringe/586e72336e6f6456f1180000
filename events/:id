@@ -26,10 +26,10 @@
                 <p class="promo_dates underline">{{dates}}</p>
                 <p class="show_phone"><span class="promo_store">{{store_name}} </span><a href="/stores/{{store_slug}}" class="read_more">View Store Info</a></p>
                 <p class="show_phone mobile_share_container">
-                    <a href="//www.facebook.com/sharer.php?u=//londonderrymall.com/promotions/{{slug}}" target="_blank">
+                    <a href="//www.facebook.com/sharer.php?u=https://londonderrymall.com/promotions/{{slug}}" target="_blank">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
                     </a>
-                    <a href="//twitter.com/intent/tweet?url=//londonderrymall.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
+                    <a href="//twitter.com/intent/tweet?url=https://londonderrymall.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461347344000/tweet.png" class="" alt="tweet">
                     </a>
                 </p>
@@ -42,10 +42,10 @@
                     <a class="animated_btn" href="//{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
                 <div class="share_container">
-                    <a href="//www.facebook.com/sharer.php?u=//londonderrymall.com/promotions/{{slug}}" target="_blank">
+                    <a href="//www.facebook.com/sharer.php?u=https://londonderrymall.com/promotions/{{slug}}" target="_blank">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
                     </a>
-                    <a href="//twitter.com/intent/tweet?url=//londonderrymall.comshoppingcentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
+                    <a href="//twitter.com/intent/tweet?url=https://londonderrymall.comshoppingcentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461347344000/tweet.png" class="" alt="tweet">
                     </a>
                 </div>
