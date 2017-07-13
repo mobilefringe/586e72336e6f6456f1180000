@@ -40,7 +40,7 @@ body{
     font-family:italic;
 }
 .bc_banner {
-    margin: 20px;
+    margin: 20px auto;
     max-width: 95%;
 }
 
