@@ -56,7 +56,6 @@
             show_content();
         }
         loadMallDataCached(renderAll); 
-        // show_content();
     })
     
     $("#newsletter_form").submit(function( e ) {
