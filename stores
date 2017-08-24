@@ -101,17 +101,16 @@
             
             if (new_stores.length > 0){
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
-            }
-            else{
+            } else {
                 $('#new_stores').hide();
             }
             
             if (coming_soon_stores.length > 0){
                 renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
-            }
-            else{
+            } else {
                 $('#coming_soon_stores').hide();
             }
+            
             show_content();
             $.each(stores, function(i, val){
                 x = val.x_coordinate - 19;
