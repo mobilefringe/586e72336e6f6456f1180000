@@ -115,7 +115,7 @@ body{
     padding: 15px 20px;
     text-align: center;
     text-decoration: none !important;
-    background: #2FBBD6;
+    background: #7b172f;
     width:240px;
 }
 
@@ -133,7 +133,7 @@ a:hover, a:active, a:focus{
 }
 
 a{
-    color: #2FBBD6;
+    color: #7b172f;
 }
 
 .store_list_navigation{
@@ -187,7 +187,7 @@ a{
     font-size:16px;
     margin-bottom: 0;
      a{
-        color:#2FBBD6 !important;
+        color:#7b172f !important;
     }
 }
 
@@ -196,7 +196,7 @@ a{
     padding-left: 5px;
     padding-right: 10px;
     a{
-        color:#2FBBD6 !important;
+        color:#7b172f !important;
     }
 }
 .animated_btn{
@@ -277,7 +277,7 @@ a{
 
 h2{
     font-family:'Cardo-Regular';
-    color:#2FBBD6;
+    color:#7b172f;
 }
 
 h4{
@@ -471,7 +471,7 @@ h4{
         
     }
     .active_heading, .active_heading a{
-        color: #2FBBD6;
+        color: #7b172f;
     }
     .row{
         border-bottom:1px solid #979797;
@@ -523,7 +523,7 @@ h4{
             text-decoration:none;
         }
         &:before{
-                background: #2FBBD6 !important;
+                background: #7b172f !important;
         }
     }
 }
@@ -771,7 +771,7 @@ h4{
 .newsletter_btn{
     width:180px;
     display: inline-block;
-    background: #2FBBD6;
+    background: #7b172f;
     color: #fff;
     font-size: 22px;
     margin-top: 25px;
@@ -876,7 +876,7 @@ h4{
 
 .hours_heading{
     font-size: 24px;
-    color: #2FBBD6;
+    color: #7b172f;
     letter-spacing: 0px;
     line-height: 28px;
     margin-bottom:20px;
@@ -970,7 +970,7 @@ h4{
 
 .store_initial{
     font-size: 24px;
-    color: #2FBBD6;
+    color: #7b172f;
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
@@ -1033,7 +1033,7 @@ h4{
 .promo_main_header{
     font-weight:bold;
     font-size: 22px;
-    color: #2FBBD6;
+    color: #7b172f;
     margin-top:0;
 }
 
@@ -1076,19 +1076,19 @@ h4{
     font-family: 'Open Sans Condensed';
     font-style: normal;
     font-size: 24px;
-    color: #2FBBD6;
+    color: #7b172f;
     letter-spacing: 0.5px;
     margin-top:5px;
     font-weight: bold;
     a{
-        color: #2FBBD6;
+        color: #7b172f;
     }
 }
 
 .promo_dates, .dates{
     font-weight:lighter;
     font-size: 24px;
-    color: #2FBBD6;
+    color: #7b172f;
     margin-bottom:26px;
     
 }
@@ -1106,7 +1106,7 @@ h4{
 .read_more{
     font-weight:lighter;
     font-size: 24px;
-    color: #2FBBD6;
+    color: #7b172f;
     display: inline-block;
     margin-top: 20px;
     text-decoration: underline;
@@ -1225,7 +1225,7 @@ h4{
     font-style:normal;
     text-transform: uppercase;
     font-size: 22px;
-    color: #2FBBD6;
+    color: #7b172f;
     margin-bottom:25px;
     padding-bottom:10px;
     border-bottom:1px solid #979797;
@@ -1239,7 +1239,7 @@ h4{
     
     text-align:center;
     a{
-        background:#2FBBD6;
+        background:#7b172f;
         margin-top:20px;
         font-weight:100;
         font-size: 22px;
@@ -1262,17 +1262,17 @@ h4{
 
 .holiday_hours_home{
     font-size: 16px;
-    color: #2FBBD6;
+    color: #7b172f;
     font-family:'Cardo-Regular';
     margin-bottom:10px;
     &:hover{
-        color: #2FBBD6;
+        color: #7b172f;
     }
 }
 
 .store_anchors{
     font-size: 20px;
-    color: #2FBBD6;
+    color: #7b172f;
     font-weight: 400;
 }
 
@@ -1587,7 +1587,7 @@ h4{
     
     .promo_main_header select{
         margin-top:10px;
-        color: #2FBBD6;   
+        color: #7b172f;   
     }
     .mobile_padding{
         padding-left:15px;
@@ -1715,7 +1715,7 @@ h4{
     }
     
     .stores_main_heading{
-        color: #2FBBD6;
+        color: #7b172f;
     }
     
     .stores_main_desc{
@@ -1733,7 +1733,7 @@ h4{
     .mobile_dd{
         background: #F1F1F1;
         font-size: 20px;
-        color: #2FBBD6;
+        color: #7b172f;
         letter-spacing: 1.5px;
         text-align:center;
         width:100%;
@@ -1746,7 +1746,7 @@ h4{
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #2FBBD6;
+        color: #7b172f;
         &::focus{
             outline:none;
         }
@@ -1754,7 +1754,7 @@ h4{
     
     .category_header{
         font-family:'Cardo-Regular';
-        color: #2FBBD6;
+        color: #7b172f;
         font-size:20px;
         text-transform: uppercase;
         text-align:center;
@@ -1955,7 +1955,7 @@ h4{
     
     .category_header{
         font-family:'Cardo-Regular';
-        color: #2FBBD6;
+        color: #7b172f;
         font-size:20px;
         text-transform: uppercase;
     }
@@ -1970,9 +1970,9 @@ h4{
         font-weight:lighter;
     }
     .active_cat{
-        color: #2FBBD6;
+        color: #7b172f;
         &:hover, &:focus{
-            color: #2FBBD6;;
+            color: #7b172f;;
         }
     }
     .alpha_list{
