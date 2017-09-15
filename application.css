@@ -507,6 +507,7 @@ h4{
         margin-bottom:32px;
         font-family: 'Cardo-Regular';
         text-transform: uppercase;
+        text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.4);
     }
     a{
         font-weight: 100;
