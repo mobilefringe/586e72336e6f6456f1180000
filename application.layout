@@ -350,6 +350,12 @@ Edmonton, AB T5C 3C8
         });
         
     </script>
+    <!-- to be placed at the end of body tag -->
+    <script>
+        $("#track_link").click( function() {
+            trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');
+        });
+    </script>
 </body>
 
 </html>
