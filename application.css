@@ -5,7 +5,10 @@ For more information on asset types please see //www.getcodecloud.com/docs#SaSS
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import '//fonts.googleapis.com/css?family=EB+Garamond|Open+Sans+Condensed:300,300i,700';
 
-body{
+/* COLOUR VARIABLES */
+$primary: #C7B299;
+
+body {
     color:#58595b;
     font-family:'Open Sans Condensed';
     padding-top: 83px;
@@ -115,7 +118,7 @@ body{
     padding: 15px 20px;
     text-align: center;
     text-decoration: none !important;
-    background: #7b172f;
+    background: $primary;
     width:240px;
 }
 
@@ -133,7 +136,7 @@ a:hover, a:active, a:focus{
 }
 
 a{
-    color: #7b172f;
+    color: $primary;
 }
 
 .store_list_navigation{
@@ -187,7 +190,7 @@ a{
     font-size:16px;
     margin-bottom: 0;
      a{
-        color:#7b172f !important;
+        color:$primary !important;
     }
 }
 
@@ -196,7 +199,7 @@ a{
     padding-left: 5px;
     padding-right: 10px;
     a{
-        color:#7b172f !important;
+        color:$primary !important;
     }
 }
 .animated_btn{
@@ -277,7 +280,7 @@ a{
 
 h2{
     font-family:'Cardo-Regular';
-    color:#7b172f;
+    color:$primary;
 }
 
 h4{
@@ -471,7 +474,7 @@ h4{
         
     }
     .active_heading, .active_heading a{
-        color: #7b172f;
+        color: $primary;
     }
     .row{
         border-bottom:1px solid #979797;
@@ -494,7 +497,7 @@ h4{
     h3 {
         margin:0;
         font-size: 80px;
-        color: #7B172F;
+        color: $primary;
         letter-spacing: 4px;
         padding-top: 210px;
         margin-bottom: 50px;
@@ -524,7 +527,7 @@ h4{
             text-decoration:none;
         }
         &:before{
-                background: #7b172f !important;
+                background: $primary !important;
         }
     }
 }
@@ -772,7 +775,7 @@ h4{
 .newsletter_btn{
     width:180px;
     display: inline-block;
-    background: #7b172f;
+    background: $primary;
     color: #fff;
     font-size: 22px;
     margin-top: 25px;
@@ -877,7 +880,7 @@ h4{
 
 .hours_heading{
     font-size: 24px;
-    color: #7b172f;
+    color: $primary;
     letter-spacing: 0px;
     line-height: 28px;
     margin-bottom:20px;
@@ -971,7 +974,7 @@ h4{
 
 .store_initial{
     font-size: 24px;
-    color: #7b172f;
+    color: $primary;
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
@@ -1034,7 +1037,7 @@ h4{
 .promo_main_header{
     font-weight:bold;
     font-size: 22px;
-    color: #7b172f;
+    color: $primary;
     margin-top:0;
 }
 
@@ -1077,19 +1080,19 @@ h4{
     font-family: 'Open Sans Condensed';
     font-style: normal;
     font-size: 24px;
-    color: #7b172f;
+    color: $primary;
     letter-spacing: 0.5px;
     margin-top:5px;
     font-weight: bold;
     a{
-        color: #7b172f;
+        color: $primary;
     }
 }
 
 .promo_dates, .dates{
     font-weight:lighter;
     font-size: 24px;
-    color: #7b172f;
+    color: $primary;
     margin-bottom:26px;
     
 }
@@ -1107,7 +1110,7 @@ h4{
 .read_more{
     font-weight:lighter;
     font-size: 24px;
-    color: #7b172f;
+    color: $primary;
     display: inline-block;
     margin-top: 20px;
     text-decoration: underline;
@@ -1226,7 +1229,7 @@ h4{
     font-style:normal;
     text-transform: uppercase;
     font-size: 22px;
-    color: #7b172f;
+    color: $primary;
     margin-bottom:25px;
     padding-bottom:10px;
     border-bottom:1px solid #979797;
@@ -1240,7 +1243,7 @@ h4{
     
     text-align:center;
     a{
-        background:#7b172f;
+        background:$primary;
         margin-top:20px;
         font-weight:100;
         font-size: 22px;
@@ -1263,17 +1266,17 @@ h4{
 
 .holiday_hours_home{
     font-size: 16px;
-    color: #7b172f;
+    color: $primary;
     font-family:'Cardo-Regular';
     margin-bottom:10px;
     &:hover{
-        color: #7b172f;
+        color: $primary;
     }
 }
 
 .store_anchors{
     font-size: 20px;
-    color: #7b172f;
+    color: $primary;
     font-weight: 400;
 }
 
@@ -1588,7 +1591,7 @@ h4{
     
     .promo_main_header select{
         margin-top:10px;
-        color: #7b172f;   
+        color: $primary;   
     }
     .mobile_padding{
         padding-left:15px;
@@ -1716,7 +1719,7 @@ h4{
     }
     
     .stores_main_heading{
-        color: #7b172f;
+        color: $primary;
     }
     
     .stores_main_desc{
@@ -1734,7 +1737,7 @@ h4{
     .mobile_dd{
         background: #F1F1F1;
         font-size: 20px;
-        color: #7b172f;
+        color: $primary;
         letter-spacing: 1.5px;
         text-align:center;
         width:100%;
@@ -1747,7 +1750,7 @@ h4{
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #7b172f;
+        color: $primary;
         &::focus{
             outline:none;
         }
@@ -1755,7 +1758,7 @@ h4{
     
     .category_header{
         font-family:'Cardo-Regular';
-        color: #7b172f;
+        color: $primary;
         font-size:20px;
         text-transform: uppercase;
         text-align:center;
@@ -1956,7 +1959,7 @@ h4{
     
     .category_header{
         font-family:'Cardo-Regular';
-        color: #7b172f;
+        color: $primary;
         font-size:20px;
         text-transform: uppercase;
     }
@@ -1971,9 +1974,9 @@ h4{
         font-weight:lighter;
     }
     .active_cat{
-        color: #7b172f;
+        color: $primary;
         &:hover, &:focus{
-            color: #7b172f;;
+            color: $primary;;
         }
     }
     .alpha_list{
