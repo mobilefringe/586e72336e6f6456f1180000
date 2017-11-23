@@ -502,6 +502,7 @@ h4{
         padding-top: 210px;
         margin-bottom: 50px;
         font-family: 'Beyond the Mountain';
+        text-shadow: 1px 1px 7px rgba(0,0,0,0.5);
     }
     p {
         font-size: 24px;
@@ -510,7 +511,8 @@ h4{
         margin-bottom:32px;
         font-family: 'Cardo-Regular';
         text-transform: uppercase;
-        text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
+        // text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+        text-shadow: 1px 1px 7px rgba(0,0,0,0.5);
     }
     a{
         font-weight: 100;
