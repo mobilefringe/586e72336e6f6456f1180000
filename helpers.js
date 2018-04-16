@@ -77,7 +77,7 @@ function show_content(){
         }
     })
     
-    $.get('//thepencentre.mallmaverick.com/is_chat_available', function(data){
+    $.get('//londonderry.mallmaverick.com/is_chat_available', function(data){
         if (data.status == false){
             $('.chat_link').hide()
         }
