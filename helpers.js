@@ -79,7 +79,7 @@ function show_content(){
     
     $.get('//londonderry.mallmaverick.com/is_chat_available', function(data){
         if (data.status == false){
-            $('.chat_link').hide()
+            $('.chat_link').hide();
         }
     })
     
