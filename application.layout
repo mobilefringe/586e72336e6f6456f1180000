@@ -350,7 +350,7 @@ Edmonton, AB T5C 3C8
         });
         
     </script>
-    <a class="chat_link" href="#" onclick="window.open(' https://secure.kipsu.com/acct/guestchat/cushman-wakefield-londonderry-mall/main-chat-page?popup=true', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Pen Centre Guest Services.  How can we help?</a>
+    
     <!--<script>-->
     <!--    $("#track_link").click( function() {-->
     <!--        trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');-->
