@@ -81,6 +81,9 @@ function show_content(){
         if (data.status == false){
             $('.chat_link').hide();
         }
+        else {
+            $('.chat_link').show();
+        }
     })
     
     // var events = getEventsList();
