@@ -252,8 +252,8 @@
                     </p>
                     <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-4 show_phone"></div>
-                <div class="col-md-4 col-sm-4 col-xs-4 text-center">
+                <div class="col-md-4 col-sm-4 col-xs-3 show_phone"></div>
+                <div class="col-md-4 col-sm-4 col-xs-6 text-center">
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57bb4aaa6e6f64731e040000/image/png/undefined/logo_londonderry2016.png" class="main_logo " alt="main_logo">
                     </a>
