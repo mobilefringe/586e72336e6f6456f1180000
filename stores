@@ -108,7 +108,8 @@
                 show_mobile_cat_stores(cat_id, $(this));
                  $("#category_selector_container").slideToggle();
                  $(".padded_border").toggle()
-            })\
+            })
+            
             show_cat_stores();
             var coming_soon_stores = getComingSoonList();
             var new_stores = getNewStoresList();
