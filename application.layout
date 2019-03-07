@@ -302,18 +302,23 @@
                         <div class="social_icons">
                             <a href="//www.facebook.com/londonderrymall" target="_blank">
                                 <span id="social_fb"></span>
+                                <p>Londonderry Facebook</p>
                             </a>
                             <a href="//twitter.com/LondonderryMall" target="_blank">
                                 <span id="social_twitter"></span>
+                                <p>Londonderry Twitter</p>
                             </a>
                             <a href="//www.instagram.com/londonderrymall/" target="_blank">
                                 <span id="social_insta"></span>
+                                <p>Londonderry Instagram</p>
                             </a>
                             <a href="//www.pinterest.com/londonderrymall/" target="_blank">
                                 <span id="social_pinterest"></span>
+                                <p>Londonderry Pinterest</p>
                             </a>
                             <a href="/newsletter">
                                 <span id="social_newsletter"></span>
+                                <p>Londonderry Newsletter</p>
                             </a>
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
