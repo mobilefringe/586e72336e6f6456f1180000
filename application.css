@@ -730,6 +730,9 @@ h4{
         height:35px;
         background-size: cover;
     }
+    p {
+        display: none;
+    }
     #social_fb{
         background-image:url(//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1455899536000/icon_facebook.png);
         &:hover{
