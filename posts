@@ -31,7 +31,7 @@
                 <script id="post_template" type="x-tmpl-mustache">
                     <div class="row hidden-xs">
                         <div class="col-xs-5 blogpost_img">
-                           <img src="{{ image_url }}" />
+                           <img src="{{ image_url }}" alt="{{ title }}" />
                            <div class="margin_20"></div>
                         </div>
                         <div class="col-xs-7 blogpost_txt">
