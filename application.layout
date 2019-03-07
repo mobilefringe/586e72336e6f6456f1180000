@@ -116,7 +116,7 @@
             </div>
             <div class="popup-body">
                 <a id="pp_url" href="">
-                    <img id="pp_img" src="" class="" alt="">
+                    <img id="pp_img" src="" class="" alt="Popup Image">
                 </a>
             </div>
        </div>
