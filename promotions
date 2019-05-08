@@ -71,7 +71,7 @@
                 } 
             });
             if (published_promos.length > 0){
-                published_promos = published_promos.sortBy(function(o){ return o.show_on_web_date }).reverse()
+                published_promos = published_promos.sortBy(function(o){ return o.end_date }).reverse()
                 console.log("published_promos", published_promos)
                 renderPromotions("#promos_container","#promos_template", published_promos, "Londonderry");
             }
