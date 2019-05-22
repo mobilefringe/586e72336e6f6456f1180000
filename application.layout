@@ -367,7 +367,7 @@ Edmonton, AB T5C 3C8
             function renderPageData(){
                 var pp = getPopups()[0];
                 console.log("pp", pp)
-                if (pp != undefined){
+                if (pp){
                     $('#pp_img').attr('src', 'https://mallmaverick.cdn.speedyrails.net' +pp.photo_url)
                     $('#pp_url').attr('href',  pp.photo_link)
                 }
