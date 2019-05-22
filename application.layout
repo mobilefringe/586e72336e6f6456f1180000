@@ -370,13 +370,13 @@ Edmonton, AB T5C 3C8
                 if (pp){
                     $('#pp_img').attr('src', 'https://mallmaverick.cdn.speedyrails.net' +pp.photo_url)
                     $('#pp_url').attr('href',  pp.photo_link)
-                }
+               
                 //popup starts
                 if($.cookie("popup_viewed") != "true"){
                     $.cookie("popup_viewed", "true");
                    $(".hidden-popup-bg").show();
                 }
-                
+                }
                 $(".hidden-popup-bg").click(function(event){
                     if( !$( event.target).is('.hidden-popup-form') ) {
                         close_popup();
