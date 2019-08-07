@@ -114,7 +114,6 @@
             var fb_date = new Date(latest_fb_post.created_at.split(',')[0])
             $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
         }
-        
     }
 </script>
 <!--<script type="text/javascript">-->
