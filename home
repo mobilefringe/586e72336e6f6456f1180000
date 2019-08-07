@@ -91,7 +91,7 @@
         if(latest_tweet.text && latest_tweet.text.length > 100){
             $('#latest_tweet').text(latest_tweet.text.substr(0,100) + "...")
         }
-        else if(latest_tweet.text){
+        else if(latest_tweet.text) {
             $('#latest_tweet').text(latest_tweet.text)
         }
         $('#latest_tweet_link').attr('href', latest_tweet.link)
