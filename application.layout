@@ -363,38 +363,38 @@ Edmonton, AB T5C 3C8
             </div>
         </div>
     </section>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            function renderPageData(){
-                var pp = getPopups()[0];
-                console.log("pp", pp)
-                if (pp){
-                    $('#pp_img').attr('src', 'https://mallmaverick.cdn.speedyrails.net' +pp.photo_url)
-                    $('#pp_url').attr('href',  pp.photo_link)
+    <!--<script type="text/javascript">-->
+    <!--    $(document).ready(function() {-->
+    <!--        function renderPageData(){-->
+    <!--            var pp = getPopups()[0];-->
+    <!--            console.log("pp", pp)-->
+    <!--            if (pp){-->
+    <!--                $('#pp_img').attr('src', 'https://mallmaverick.cdn.speedyrails.net' +pp.photo_url)-->
+    <!--                $('#pp_url').attr('href',  pp.photo_link)-->
                
                     //popup starts
-                    if($.cookie("popup_viewed") != "true"){
-                        $.cookie("popup_viewed", "true");
-                       $(".hidden-popup-bg").show();
-                    }
-                }
-                $(".hidden-popup-bg").click(function(event){
-                    if( !$( event.target).is('.hidden-popup-form') ) {
-                        close_popup();
-                    } else {
-                        event.stopPropagation();
-                    }
-                });
+    <!--                if($.cookie("popup_viewed") != "true"){-->
+    <!--                    $.cookie("popup_viewed", "true");-->
+    <!--                   $(".hidden-popup-bg").show();-->
+    <!--                }-->
+    <!--            }-->
+    <!--            $(".hidden-popup-bg").click(function(event){-->
+    <!--                if( !$( event.target).is('.hidden-popup-form') ) {-->
+    <!--                    close_popup();-->
+    <!--                } else {-->
+    <!--                    event.stopPropagation();-->
+    <!--                }-->
+    <!--            });-->
                 
-                $(".hidden-popup-bg .hidden-popup-form").click(function(event){
-                    event.stopPropagation();
-                }); 
-            }
-            //loadMallData is located in mallmaverick.js, the call back method ensures the data is loaded
-            loadMallData(renderPageData);
-        });
+    <!--            $(".hidden-popup-bg .hidden-popup-form").click(function(event){-->
+    <!--                event.stopPropagation();-->
+    <!--            }); -->
+    <!--        }-->
+            <!--//loadMallData is located in mallmaverick.js, the call back method ensures the data is loaded-->
+    <!--        loadMallData(renderPageData);-->
+    <!--    });-->
         
-    </script>
+    <!--</script>-->
     <a class="chat_link hidden_now" href="#" onclick="window.open(' https://secure.kipsu.com/acct/guestchat/cushman-wakefield-londonderry-mall/main-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Londonderry Guest Services.  How can we help?</a>
     <script>
         $("#track_link").click( function() {
