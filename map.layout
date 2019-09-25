@@ -54,8 +54,8 @@
             $(".hidden-popup-bg").fadeOut();
         }  
         
-        setEndPoint('//londonderry.mallmaverick.com/api/v4/londonderry/all.json');
-        setSocialEndPoint('//londonderry.mallmaverick.com/api/v4/londonderry/social.json');
+        setEndPoint('//londonderry.mallmaverickstaging.com/api/v4/londonderry/all.json');
+        // setSocialEndPoint('//londonderry.mallmaverick.com/api/v4/londonderry/social.json');
         sessionStorage.setItem('primary_locale', 'en-CA');
         sessionStorage.setItem('secondary_locale', 'fr-CA');
         
