@@ -31,17 +31,6 @@
                 window.location.href= "/stores/"+store.slug
             }
         }
-        if (event.origin.startsWith('https://mf-map.netlify.com') && event.data.event === "map-loaded") {
-            if(event.data) {
-                var loading = event.data.loading;
-                if (!loading){
-                    let frame = document.getElementById('iFrame1');
-                    // frame.contentWindow.postMessage({ event: "select-store", selectedStore: store_details }, '*');
-                    // frame1.$('levels').style.top = 'auto';
-                    $("#ifFrame1").contents().find(".levels").attr("style","top:auto");
-                }
-            }
-        }
     }); 
     
     function detectIE() {
