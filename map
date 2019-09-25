@@ -8,25 +8,25 @@
         init(e);
         function renderPageData(){
             console.log('IE ' + detectIE());
-            if(detectIE()){
+            if (detectIE()) {
                 var svg_url = '//mallmaverickstaging.com'+ getPropertyDetails().svgmap_url;
                 $('#iFrame1').remove();
                 $("#IE_map").attr("src", svg_url)
-            } 
-            else {
+            } else {
                 $('#IE_map').remove();
             }
+            
             show_content();
         }
-        loadMallDataCached(renderPageData);
         
+        loadMallDataCached(renderPageData);
     });
     window.addEventListener('message', function(event) {
         // IMPORTANT: check the origin of the data! 
         if (event.origin.startsWith('https://mf-map.netlify.com')) { 
             // The data was sent from your site.
             // Data sent with postMessage is stored in event.data:
-            if(event.data && event.data.selectedStore) {
+            if (event.data && event.data.selectedStore) {
                 var store = event.data.selectedStore
                 window.location.href= "/stores/"+store.slug
             }
