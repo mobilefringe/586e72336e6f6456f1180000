@@ -63,7 +63,7 @@
     html, iframe, #IE_map{
         scroll-behavior: smooth;
         height: calc(100vh - 111px) !important;
-        top: 101px !important;
+        top: 111px !important;
     }
     #IE_map{
         margin:auto;
