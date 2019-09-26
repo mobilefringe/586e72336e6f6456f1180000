@@ -31,12 +31,13 @@
                                 <iframe src="https://mf-map.netlify.com/map?iframe=true&staging=true&subdomain=londonderry&recenter=true&hideStoreList=true" frameborder="0" width="100%" height="100%" id="iFrame1" sandbox="allow-top-navigation allow-scripts allow-same-origin"></iframe>
                                 <img id="IE_map" src="">
                             </div>
-                            <a id="to_map" class="animated_btn show_phone" href="#">View on Map</a>
+                            
                         </div>
                     </div>
                     <div class="col-md-4">
                         <img src="{{alt_store_front_url}}" class="store_logo hidden_phone" alt="{{name}}" />
                         <div class="side_stores">
+                            <a id="to_map" class="animated_btn show_phone" href="#">View on Map</a>
                             <a class="animated_btn" href="tel:{{phone}}" style="{{phone_show}}">Phone: {{phone}}</a>
                             <a class="animated_btn" href="//{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                         </div>
