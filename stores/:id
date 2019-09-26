@@ -156,7 +156,7 @@
         }
         
         $('#to_map').click(function(e){
-           preventDefault();
+           e.preventDefault();
            window.location = "/map?store=" + store_details.id;
         });
         
