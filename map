@@ -30,6 +30,11 @@
                 var store = event.data.selectedStore
                 window.location.href= "/stores/"+store.slug
             }
+            
+            var query = window.location.search;
+            console.log("query", query)
+            // var search_part = query.split('?')[1];
+            // var search_tag = search_part.split('=')[0];
         }
     }); 
     
