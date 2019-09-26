@@ -152,6 +152,11 @@
             }
         }
         
+        $('#myDiv').click(function(){
+           preventDefault();
+           window.location = "/map?store=" + store_details.id;
+        });
+        
 		loadMallDataCached(renderAll); 
     });
     
