@@ -32,14 +32,12 @@
             }
             
             var query = window.location.search;
-            console.log("query", query)
             var store_id = query.split('=')[1];
-            console.log("store_id", store_id);
             var store_details = getStoreDetailsByID(store_id)
             if (event.origin.startsWith('https://mf-map.netlify.com') && event.data.event === "map-loaded") {
                 if (event.data) {
                     var loading = event.data.loading;
-                    if (!loading){
+                    if (!loading && store_details){
                         let frame = document.getElementById('iFrame1');
                         frame.contentWindow.postMessage({ event: "select-store", selectedStore: store_details }, '*');
                     }
