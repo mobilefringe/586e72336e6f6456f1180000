@@ -214,7 +214,7 @@
     }
     #iFrame1 {
         display: none;
-        min-height: 650px;
+        min-height: 700px;
     }
     @media (max-width: 768px) {
     #iFrame1 {
