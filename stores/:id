@@ -216,9 +216,9 @@
         min-height: 700px;
     }
     @media (max-width: 768px) {
-    #iFrame1 {
-        display: none;
-        min-height: 400px;
-    }
+        #iFrame1 {
+            display: none;
+            min-height: 400px;
+        }
     }
 </style>
