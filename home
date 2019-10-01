@@ -2,12 +2,14 @@
     <!-- UNCOMMENT FOR DYMANIC CONTENT -->
 
     <script id="banner_template" type="x-tmpl-mustache/text">
-        {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
-            <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
-                <h3>Fashion Is Coming North</h3>
-                <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
-            </div>
-        </a>
+        <li class="position_relative">
+            {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
+                <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
+                    <h3>Fashion Is Coming North</h3>
+                    <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
+                </div>
+            </a>
+        </li>
     </script>
 </div>
 <!--<div class="hero_banner text-center">-->
