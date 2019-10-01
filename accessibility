@@ -40,7 +40,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var banner_repo = getRepoDetailsByName("Accessibility Banner");
+            var banner_repo = getRepoDetailsByName("Inner Pages Banner");
             if (banner_repo) {
                 var banner_image = banner_repo.images[0].image_url;
                 if (banner_image) {
