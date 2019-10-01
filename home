@@ -5,7 +5,10 @@
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="position_relative">
                 {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
-                    <div class="hero_banner" style="background-image: url({{image_url}})"></div>
+                    <div class="hero_banner" style="background-image: url({{image_url}})">
+                        <h3>Fashion Is Coming North</h3>
+                        <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
+                    </div>
                 </a>
             </li>
         </script>
@@ -13,8 +16,8 @@
 
 </div>
 <!--<div class="hero_banner text-center">-->
-<!--    <h3>Fashion Is Coming North</h3>-->
-<!--    <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>-->
+    <!--<h3>Fashion Is Coming North</h3>-->
+    <!--<p>NORTH EDMONTON'S SHOPPING DESTINATION</p>-->
     <!--<a class="animated_btn" href="/stores">visit our stores</a>-->
 <!--</div>-->
 <div class="content_container main_container">
