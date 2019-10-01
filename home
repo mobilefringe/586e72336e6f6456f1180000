@@ -1,9 +1,9 @@
-<div class="hero_banner  text-center">
+<div>
     <!-- UNCOMMENT FOR DYMANIC CONTENT -->
 
     <script id="banner_template" type="x-tmpl-mustache/text">
         {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
-            <div style="background-image: url({{image_url}})">
+            <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
                 <h3>Fashion Is Coming North</h3>
                 <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
             </div>
