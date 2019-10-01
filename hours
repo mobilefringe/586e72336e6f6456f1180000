@@ -1,4 +1,4 @@
-<div class="jobs_banner text-center">
+<div class="main_banner text-center">
     <h3>SHOPPING HOURS</h3>
     <p>explore • enjoy • shop</p>
 </div>
@@ -65,6 +65,14 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            var banner_repo = getRepoDetailsByName("Inner Pages Banner");
+            if (banner_repo) {
+                var banner_image = banner_repo.images[0].image_url;
+                if (banner_image) {
+                    $(".main_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #013a80 url(" + banner_image + ") center center no-repeat" });
+                }
+            }
+            
             var hours = getPropertyRegularHours();
             renderHours('#hours_container','#hours_template', hours, 'reg_hours');
             var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
