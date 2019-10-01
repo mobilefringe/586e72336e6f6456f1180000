@@ -51,6 +51,14 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            var banner_repo = getRepoDetailsByName("Newsletter Banner");
+            if (banner_repo) {
+                var banner_image = banner_repo.images[0].image_url;
+                if (banner_image) {
+                    $(".newsletter_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #013a80 url(" + banner_image + ") center center no-repeat" });
+                }
+            }
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
