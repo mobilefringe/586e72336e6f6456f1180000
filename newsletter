@@ -86,7 +86,8 @@
         border-radius: 0;
     }
     #mc_embed_signup .button:hover {
-        background: #a18159;
+        background:#ab224b ;
+        /*background: #a18159;*/
     }
     #mc_embed_signup .button:before {
         content: '';
