@@ -11,7 +11,7 @@ $primary: #ab224b;
 body {
     color:#58595b;
     font-family:'Open Sans Condensed';
-    // padding-top: 83px;
+    // padding-top: 83px;h
     font-size: 24px;
     line-height: 24px;
     font-weight: lighter;
@@ -453,7 +453,7 @@ h4{
 }
 .main_banner{
     background-color:#000;
-    background-image:url('//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1559686043139/topBanner.png');
+    background-image:url('//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1570464749000/Top Banner11.png');
     background-size: cover;
     background-repeat: no-repeat; 
     padding: 0px 0px 85px 0;
@@ -520,7 +520,7 @@ h4{
 }
 .hero_banner{
     background-color:#000;
-    background-image:url('//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1559685763891/heroBanner.png');
+    background-image:url('//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1570464738000/Hero Banner11.png');
     background-size: cover;
     background-repeat: no-repeat; 
     height:540px;
@@ -566,7 +566,7 @@ h4{
 .jobs_banner{
     background-repeat: no-repeat; 
     background-color:#000;
-    background-image:url('//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1559686043139/topBanner.png');
+    background-image:url('//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1570464749000/Top Banner11.png');
     padding:80px 0;
     background-size: cover;
     h3 {
