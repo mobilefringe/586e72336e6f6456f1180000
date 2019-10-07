@@ -1,24 +1,26 @@
-<div class="">
+<!--<div class="">-->
     <!-- UNCOMMENT FOR DYMANIC CONTENT -->
-    <ul class="slides" id="home_banner">
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li class="position_relative">
-                {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
-                    <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
-                        <h3>Fashion Has Come North</h3>
-                        <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
-                    </div>
-                </a>
-            </li>
-        </script>
-    </ul>
+<!--    <ul class="slides" id="home_banner">-->
+    
+<!--        <script id="banner_template" type="x-tmpl-mustache/text">-->
+<!--            <li class="position_relative">-->
+<!--                {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}-->
+<!--                    <div class="hero_banner  text-center" style="background-image: url({{image_url}})">-->
+<!--                        <h3>Fashion Has Come North</h3>-->
+<!--                        <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </script>-->
+        
+<!--    </ul>-->
 
-</div>
-<!--<div class="hero_banner text-center">-->
-    <!--<h3>Fashion Is Coming North</h3>-->
-    <!--<p>NORTH EDMONTON'S SHOPPING DESTINATION</p>-->
-    <!--<a class="animated_btn" href="/stores">visit our stores</a>-->
 <!--</div>-->
+<div class="hero_banner text-center">
+    <h3>Fashion Is Coming North</h3>
+    <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
+    <a class="animated_btn" href="/stores">visit our stores</a>
+</div>
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
@@ -95,23 +97,32 @@
             // var banners = getBanners();
             // renderBanner('#banner_template','#home_banner',banners);
   
-            banners () {
-                var banners = [];//this.$store.state.banners;
-                _.forEach(this.$store.state.banners, function(value, key) {
-                    var today = new Date();
-                    var start = new Date (value.start_date);
-                    if (start <= today){
-                        if (value.end_date){
-                            var end = new Date (value.end_date);
-                            if (end >= today){
-                                banners.push(value);  
-                            }
-                        } else {
-                            banners.push(value);
-                        }
-                    }
-                })
-                return _.orderBy(banners, ['position'], ['asc']);
+            // banners () {
+            //     var banners = [];//this.$store.state.banners;
+            //     _.forEach(this.$store.state.banners, function(value, key) {
+            //         var today = new Date();
+            //         var start = new Date (value.start_date);
+            //         if (start <= today){
+            //             if (value.end_date){
+            //                 var end = new Date (value.end_date);
+            //                 if (end >= today){
+            //                     banners.push(value);  
+            //                 }
+            //             } else {
+            //                 banners.push(value);
+            //             }
+            //         }
+            //     })
+            //     return _.orderBy(banners, ['position'], ['asc']);
+            // }
+            
+            
+            var banner_repo = getRepoDetailsByName("Inner Pages Banner");
+            if (banner_repo) {
+                var banner_image = banner_repo.images[0].image_url;
+                if (banner_image) {
+                    $(".hero_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #013a80 url(" + banner_image + ") center center no-repeat" });
+                }
             }
             
             loadSocialFeeds(render_social)
@@ -123,24 +134,24 @@
         loadMallDataCached(renderAll); 
     })
     
-    banners () {
-        var banners = [];//this.$store.state.banners;
-        _.forEach(this.$store.state.banners, function(value, key) {
-            var today = new Date();
-            var start = new Date (value.start_date);
-            if (start <= today){
-                if (value.end_date){
-                    var end = new Date (value.end_date);
-                    if (end >= today){
-                        banners.push(value);  
-                    }
-                } else {
-                    banners.push(value);
-                }
-            }
-        })
-        return _.orderBy(banners, ['position'], ['asc']);
-    }
+    // banners () {
+    //     var banners = [];//this.$store.state.banners;
+    //     _.forEach(this.$store.state.banners, function(value, key) {
+    //         var today = new Date();
+    //         var start = new Date (value.start_date);
+    //         if (start <= today){
+    //             if (value.end_date){
+    //                 var end = new Date (value.end_date);
+    //                 if (end >= today){
+    //                     banners.push(value);  
+    //                 }
+    //             } else {
+    //                 banners.push(value);
+    //             }
+    //         }
+    //     })
+    //     return _.orderBy(banners, ['position'], ['asc']);
+    // }
     
     
     function render_social(){
