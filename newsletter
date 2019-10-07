@@ -79,7 +79,6 @@
         color: #fff;
         font-size: 22px;
         margin-top: 25px;
-        padding:14px 0px 18px  0;
         border: 0;
         height: 56px;
         font-family: 'Open Sans Condensed';
