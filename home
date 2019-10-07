@@ -1,17 +1,6 @@
 <div class="">
     <!-- UNCOMMENT FOR DYMANIC CONTENT -->
     <ul class="slides" id="home_banner">
-    
-        <div class="" v-for="banner in banners" v-if="banners.length == 1">
-    						<div class="home_banner" style="{ backgroundImage: 'url(' + banner.image_url + ')' }">
-    						    <div class="home_banner_content">
-    						        <h1>{{ banner.name }}</h1>
-    						        <h2>{{ banner.description }}</h2>
-    						    </div>   
-    						</div>
-    					</div>
-    
-    
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="position_relative">
                 {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
