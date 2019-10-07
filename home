@@ -1,20 +1,8 @@
-<div class="">
-    <!-- UNCOMMENT FOR DYMANIC CONTENT -->
-    <ul class="slides" id="home_banner">
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li class="position_relative">
-                {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
-                    <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
-                        <h3>Fashion Has Come North</h3>
-                        <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
-                    </div>
-                </a>
-            </li>
-        </script>
-    </ul>
-
+<div class="hero_banner text-center">
+    <h3>Fashion Is Coming North</h3>
+    <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
+    <!--<a class="animated_btn" href="/stores">visit our stores</a>-->
 </div>
-
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
@@ -25,7 +13,7 @@
             
             <div class="feature_item">
                 <a href="//www.facebook.com/londonderrymall" target="_blank" class="show_phone">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/5ad4e1d76e6f64679e0b0000/image/png/1548092806000/londonderry-fb@HQ.png" class="" alt="">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1548092806000/londonderry-fb@HQ.png" class="" alt="">
                 </a>
                 <div class="hidden_phone social_box text-center" id="social_fb">
                     <img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483732175000/facebook__icon_post.png" class="home_icon" alt="Facebook Logo">
@@ -88,11 +76,6 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var banners = getBanners();
-            renderBanner('#banner_template','#home_banner',banners);
-  
-            
-            
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
