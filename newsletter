@@ -85,6 +85,9 @@
         font-family: 'Open Sans Condensed';
         border-radius: 0;
     }
+    #mc_embed_signup .button:hover {
+        background: initial;
+    }
     #mc_embed_signup .button:before {
         content: '';
         position: absolute;
