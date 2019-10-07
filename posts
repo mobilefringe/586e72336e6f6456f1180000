@@ -1,0 +1,83 @@
+<div class="main_banner text-center">
+    <h3>LONDONDERRY STYLE</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-4 text-center">
+            <h5 class="active_heading">LONDONDERRY STYLE</h5>
+        </div>
+        <div class="col-md-4">
+            <h5><a href="/blog">GET THE LOOK</a></h5>
+        </div>
+        <div class="col-md-4">
+            <h5><a href="/news">NEWS/DEVELOPMENT</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/blog">Get The Look</option>
+            <option value="/news">News/Development</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12" id="post_container">
+                <script id="post_template" type="x-tmpl-mustache">
+                    <div class="row hidden-xs">
+                        <div class="col-xs-5 blogpost_img">
+                           <img src="{{ image_url }}" />
+                           <div class="margin_20"></div>
+                        </div>
+                        <div class="col-xs-7 blogpost_txt">
+                            <h2 class="blogpost_title">
+                                <a href='/posts/{{slug}}'>{{ title }}</a>
+                            </h2>
+                            <div class="blogpost_content">
+                                <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span> <span class="regular">|</span>{{/author}} {{ published_on }}</p>
+                                <p class="blogpost_discription">{{ description_short }}</p>
+                                <a href='/posts/{{slug}}' class="readmore">Read More</a>
+                            </div>
+                            <div class="margin_20"></div>
+                        </div>
+                    </div>
+                    <div class="row visible-xs">
+                        <h2 class="blogpost_title">
+                            <a href='/posts/{{slug}}'>{{ title }}</a>
+                        </h2>
+                        <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span><span class="regular">|</span>{{/author}} {{ published_on }}</p>
+                        <img src="{{ image_url }}" />
+                        <p class="blogpost_discription">{{ description_short }}</p>
+                        <a href='/posts/{{slug}}' class="readmore">Read More</a>
+                    </div>
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        var banner_repo = getRepoDetailsByName("Inner Pages Banner");
+        if (banner_repo) {
+            var banner_image = banner_repo.images[0].image_url;
+            if (banner_image) {
+                $(".main_banner").css({ "background": "linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), #013a80 url(" + banner_image + ") center center no-repeat" });
+            }
+        }
+        
+        loadMallDataCached(renderPageData);
+    });
+    
+    function renderPageData(){
+        var posts = getPostList();
+        renderPosts('#post_container', "#post_template", posts.reverse())
+        show_content();
+    }
+</script>
