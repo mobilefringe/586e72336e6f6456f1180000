@@ -665,6 +665,7 @@ h4{
     div{
         overflow:hidden;
         float:left;
+        position: relative;
     }
     img{
         transform: scale(1);
