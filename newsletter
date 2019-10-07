@@ -82,6 +82,7 @@
         padding:14px 0px 18px  0;
         border: 0;
         height: 56px;
+        font-family: 'Open Sans Condensed';
         border-radius: 0;
     }
     #mc_embed_signup:hover, #mc_embed_signup:focus{
