@@ -1,7 +1,6 @@
 <div class="">
-     <!--UNCOMMENT FOR DYMANIC CONTENT -->
+    <!-- UNCOMMENT FOR DYMANIC CONTENT -->
     <ul class="slides" id="home_banner">
-    
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="position_relative">
                 {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
@@ -13,8 +12,13 @@
             </li>
         </script>
     </ul>
-</div>
 
+</div>
+<!--<div class="hero_banner text-center">-->
+    <!--<h3>Fashion Is Coming North</h3>-->
+    <!--<p>NORTH EDMONTON'S SHOPPING DESTINATION</p>-->
+    <!--<a class="animated_btn" href="/stores">visit our stores</a>-->
+<!--</div>-->
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
@@ -90,6 +94,9 @@
         function renderAll(){
             var banners = getBanners();
             renderBanner('#banner_template','#home_banner',banners);
+  
+            
+            
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
@@ -98,7 +105,6 @@
         }
         loadMallDataCached(renderAll); 
     })
-    
     function render_social(){
         var social_feed = getSocialFeed()
         var latest_tweet = social_feed.twitter[0]
