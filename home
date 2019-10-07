@@ -3,26 +3,17 @@
     <ul class="slides" id="home_banner">
     
         <!--if only 1 banner-->
-			<!--<div class="" v-for="banner in banners" v-if="banners.length == 1">-->
-			<!--	<div class="home_banner" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }">-->
-			<!--	    <div class="home_banner_content" v-if="banner.name && banner.description">-->
-			<!--	        <h1>{{ banner.name }}</h1>-->
-			<!--	        <h2>{{ banner.description }}</h2>-->
-			<!--	    </div>   -->
-			<!--	</div>-->
-			<!--</div>-->
+			<div class="" v-for="banner in banners" v-if="banners.length == 1">
+				<div class="home_banner" v-bind:style="{ backgroundImage: 'url(' + banner.image_url + ')' }">
+				    <div class="home_banner_content" v-if="banner.name && banner.description">
+				        <h1>{{ banner.name }}</h1>
+				        <h2>{{ banner.description }}</h2>
+				    </div>   
+				</div>
+			</div>
     
     
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li class="position_relative">
-                {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
-                    <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
-                        <h3>Fashion Has Come North</h3>
-                        <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
-                    </div>
-                </a>
-            </li>
-        </script>
+
     </ul>
 
 </div>
@@ -107,24 +98,7 @@
             // var banners = getBanners();
             // renderBanner('#banner_template','#home_banner',banners);
   
-            banners () {
-                var banners = [];//this.$store.state.banners;
-                _.forEach(this.$store.state.banners, function(value, key) {
-                    var today = new Date();
-                    var start = new Date (value.start_date);
-                    if (start <= today){
-                        if (value.end_date){
-                            var end = new Date (value.end_date);
-                            if (end >= today){
-                                banners.push(value);  
-                            }
-                        } else {
-                            banners.push(value);
-                        }
-                    }
-                })
-                return _.orderBy(banners, ['position'], ['asc']);
-            }
+            banners ();
             
             loadSocialFeeds(render_social)
             renderFeatureItems();
@@ -134,6 +108,27 @@
         }
         loadMallDataCached(renderAll); 
     })
+    
+    function banners () {
+        var banners = [];//this.$store.state.banners;
+        _.forEach(this.$store.state.banners, function(value, key) {
+            var today = new Date();
+            var start = new Date (value.start_date);
+            if (start <= today){
+                if (value.end_date){
+                    var end = new Date (value.end_date);
+                    if (end >= today){
+                        banners.push(value);  
+                    }
+                } else {
+                    banners.push(value);
+                }
+            }
+        })
+        return _.orderBy(banners, ['position'], ['asc']);
+    }
+    
+    
     function render_social(){
         var social_feed = getSocialFeed()
         var latest_tweet = social_feed.twitter[0]
