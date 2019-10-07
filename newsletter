@@ -74,6 +74,7 @@
     #mc_embed_signup .button {
         position:relative;
         z-index: 0;
+        background: black;
     }
     #mc_embed_signup .button:before {
         content: '';
