@@ -74,7 +74,7 @@
     #mc_embed_signup .button {
         position:relative;
         z-index: 0;
-        background: $primary;
+        background: #ab224b;
         color: #fff;
         font-size: 22px;
         margin-top: 25px;
