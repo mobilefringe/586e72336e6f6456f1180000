@@ -85,10 +85,7 @@
         font-family: 'Open Sans Condensed';
         border-radius: 0;
     }
-    /*#mc_embed_signup .button:hover {*/
-    /*    background:#ab224b ;*/
-        /*background: #a18159;*/
-    /*}*/
+
     #mc_embed_signup .button:before {
         content: '';
         position: absolute;
@@ -111,6 +108,14 @@
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     } 
+    #mc_embed_signup .button:hover {
+        background:#ab224b ;
+        background: #a18159;
+    }
+    #mc_embed_signup .button:hover:after {
+
+        background: #a18159;
+    }
 
 </style>
 
