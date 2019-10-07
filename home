@@ -117,7 +117,7 @@
             // }
             
             
-            var banner_repo = getRepoDetailsByName("Inner Pages Banner");
+            var banner_repo = getRepoDetailsByName("Homepage Setup");
             if (banner_repo) {
                 var banner_image = banner_repo.images[0].image_url;
                 if (banner_image) {
@@ -133,26 +133,6 @@
         }
         loadMallDataCached(renderAll); 
     })
-    
-    // banners () {
-    //     var banners = [];//this.$store.state.banners;
-    //     _.forEach(this.$store.state.banners, function(value, key) {
-    //         var today = new Date();
-    //         var start = new Date (value.start_date);
-    //         if (start <= today){
-    //             if (value.end_date){
-    //                 var end = new Date (value.end_date);
-    //                 if (end >= today){
-    //                     banners.push(value);  
-    //                 }
-    //             } else {
-    //                 banners.push(value);
-    //             }
-    //         }
-    //     })
-    //     return _.orderBy(banners, ['position'], ['asc']);
-    // }
-    
     
     function render_social(){
         var social_feed = getSocialFeed()
