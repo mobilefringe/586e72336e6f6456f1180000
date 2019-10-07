@@ -116,7 +116,7 @@
             // }
             
             
-            var banner_repo = getRepoDetailsByName("");
+            var banner_repo = getRepoDetailsByName("Homepage Setup");
             if (banner_repo) {
                 var banner_image = banner_repo.images[0].image_url;
                 if (banner_image) {
