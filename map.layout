@@ -43,7 +43,7 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('//londonderry.mallmaverick.com/api/v4/londonderry/all.json');
+        setEndPoint('//londonderry.mallmaverickstaging.com/api/v4/londonderry/all.json');
         sessionStorage.setItem('primary_locale', 'en-CA');
         sessionStorage.setItem('secondary_locale', 'fr-CA');
         
