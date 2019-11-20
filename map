@@ -98,8 +98,6 @@
                 onClick: function(e,mapsvg){
                   var region = this;
                   mapsvg.marksHide();
-                //   console.log(region);
-                //   drop_pin(region.id,mapsvg)
                 }
             });
             
