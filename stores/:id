@@ -211,7 +211,7 @@
                     }
                 });
                 
-                console.log(map)
+                console.log(store_details.svgmap_region)
                 
                 $('.map_pin_a').click(function(e){
                     e.preventDefault();
