@@ -103,6 +103,8 @@
                 }
             });
             
+            console.log(map)
+            
             $('.map_pin_a').click(function(e){
                 e.preventDefault();
                 var id = $(this).attr('data-svg')
