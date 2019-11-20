@@ -101,21 +101,32 @@
         }
     }); 
 </script>
+
 <style>
-    html, iframe, #IE_map{
-        scroll-behavior: smooth;
-        height: calc(100vh - 111px) !important;
-        top: 111px !important;
+.map-container {
+        margin-bottom: 30px;
+    }
+    #mapsvg_store_detail {
+        margin: 0;
     }
     #IE_map{
         margin:auto;
     }
-    #iFrame1 .levels {
-        top: unset;
+    #mobileMap{
+        display:none!important;
+    }
+    #desktopMap{
+        display:block!important;
     }
     @media (max-width: 768px) {
         html, iframe, #IE_map{
-            height: calc(100vh - 100px) !important;
+            height: calc(100vh - 104.97px) !important;
+        }
+        #mobileMap{
+            display:block!important;
+        }
+        #desktopMap{
+            display:none!important;
         }
         .home_hours_phone {
             display:none!important;
