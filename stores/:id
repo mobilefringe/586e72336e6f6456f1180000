@@ -264,23 +264,26 @@
     }
 </script>
 <style>
-    html, iframe{
-        scroll-behavior: smooth;
-        height: calc(100%) !important;
-        /*top: 101px !important;*/
-    }
     #IE_map{
         margin:auto;
         height:400px;
     }
-    #iFrame1 {
-        display: none;
-        min-height: 700px;
+    #mobileMap{
+        display:none!important;
+    }
+    #desktopMap{
+        display:block!important;
     }
     @media (max-width: 768px) {
         #iFrame1 {
             display: none;
             min-height: 400px;
+        }
+         #mobileMap{
+            display:block!important;
+        }
+        #desktopMap{
+            display:none!important;
         }
     }
 </style>
