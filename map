@@ -111,9 +111,9 @@
             
             function map_pin(value){
                 map.marksHide();
-                console.log('value', value)
-                if (value){
-                    drop_pin(value, map);    
+                value = value.split('/')
+                if (value[0] != null){
+                    drop_pin(value[0], map);    
                 }
             }
         }
