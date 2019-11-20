@@ -225,7 +225,7 @@
                         drop_pin(value, map);    
                     }
                 }
-                drop_pin(store_details.svgmap_region, map)
+                // drop_pin(store_details.svgmap_region, map)
         }
 		loadMallDataCached(renderAll); 
     });
