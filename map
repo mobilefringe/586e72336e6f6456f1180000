@@ -133,6 +133,7 @@
     }); 
 </script>
 
+
 <style>
 .map-container {
         margin-bottom: 30px;
@@ -157,9 +158,6 @@
             display:block!important;
         }
         #desktopMap{
-            display:none!important;
-        }
-        .home_hours_phone {
             display:none!important;
         }
     }
