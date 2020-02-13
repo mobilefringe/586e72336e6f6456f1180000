@@ -277,6 +277,16 @@ a{
     }
 }
 
+.facebook_box {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:768px) {
+        display: none !important;
+    }
+}
+
 .hours_box{
     height:235px;
     width:235px;
