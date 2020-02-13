@@ -25,11 +25,13 @@
                 <a href="//www.facebook.com/londonderrymall" target="_blank" class="show_phone">
                     <img src="//codecloud.cdn.speedyrails.net/sites/5d8bbda46e6f6417811a0000/image/png/1548092806000/londonderry-fb@HQ.png" class="" alt="">
                 </a>
-                <div class="hidden_phone social_box text-center" id="social_fb">
+                <div class="hidden_phone social_box facebook_box text-center" id="social_fb">
                     <img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483732175000/facebook__icon_post.png" class="home_icon" alt="Facebook Logo">
-                    <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
+                    <a href="#" id="latest_fb_link" target="_blank">
+                        <p id="latest_fb" class="latest_post"></p>
+                    </a>
                     <p>
-                        <a  class="social_link_blank" href="//www.facebook.com/londonderrymall" target="_blank">Facebook/LondonderryMall</a> <br />
+                        <a  class="social_link_blank" href="//www.facebook.com/londonderrymall" target="_blank">Follow Londonderry Mall on Facebook</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
