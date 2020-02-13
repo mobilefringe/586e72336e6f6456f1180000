@@ -29,6 +29,7 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483732175000/facebook__icon_post.png" class="home_icon" alt="Facebook Logo">
                     <a href="#" id="latest_fb_link" target="_blank">
                         <p id="latest_fb" class="latest_post"></p>
+                        
                     </a>
                     <p>
                         <a  class="social_link_blank" href="//www.facebook.com/londonderrymall" target="_blank">Follow Londonderry Mall on Facebook</a> <br />
