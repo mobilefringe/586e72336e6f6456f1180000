@@ -33,7 +33,7 @@
                 $('#mm_page_title').html(data.title.toUpperCase());
                 $('#mm_page_content').html(data.body);
                 if(slug == 'londonderry-covid-19') {
-                    $(".main_banner").css({ "background": "red" });
+                    $(".main_banner").css({ "background": "#ab224b" });
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
