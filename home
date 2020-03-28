@@ -5,14 +5,17 @@
             <li class="position_relative">
                 {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
                     <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
-                        <h3>Fashion Has Come North</h3>
-                        <p>NORTH EDMONTON'S SHOPPING DESTINATION</p>
+                        
                     </div>
                 </a>
             </li>
         </script>
     </ul>
 </div>
+<!-- Put back in the banner after COVID-19 -->
+<!--<h3>Fashion Has Come North</h3>-->
+<!--<p>NORTH EDMONTON'S SHOPPING DESTINATION</p>-->
+<!-- *** -->
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
