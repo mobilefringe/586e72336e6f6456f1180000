@@ -106,6 +106,7 @@
             // renderBanner('#banner_template','#home_banner',banners);
             
             var banners = getBanners();
+            console.log(banners)
             renderBanner('#banner_template','#home_banner', banners);
             
             loadSocialFeeds(render_social)
